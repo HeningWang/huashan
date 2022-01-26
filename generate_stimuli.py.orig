@@ -1,0 +1,82 @@
+import json
+import csv
+<<<<<<< HEAD
+
+#read csv file as list of lists of strings
+with open('stimuli_table_schesaplana.csv', 'r', encoding='utf-8') as f:
+=======
+# import image_generator
+import shapesAndLocations
+import math
+import cairo
+import sys
+from scipy.stats import truncnorm
+
+# some overall parameters
+x_coordinate_landmark_1 = 220
+y_coordinate_landmark_1 = 220
+x_coordinate_landmark_2 = 420
+y_coordinate_landmark_2 = 420
+sample_size = 32
+window_size = 640
+landmark_size = 32
+
+# read csv file as list of lists of strings
+with open('stimuli_input.csv', 'r', encoding='latin-1') as f:
+>>>>>>> 546ec62e5ec955ba54529a5cece005cbe249a03d
+    reader = csv.reader(f)
+
+    #skip header
+    next(reader, None)
+    stimuli_file = list(reader)
+    #print(stimuli_file)
+
+#Filter for relevant lines
+def relevant_line(line):
+    return True
+
+
+
+#create dict with relevant data
+def create_dict(line):
+    line_string = ";".join(str(x) for x in line)
+    line_cells = line_string.split(";")
+    if line_cells[5] == 'n':
+        return {"item": line_cells[0],
+                "condition": line_cells[1],
+				"list": line_cells[2],
+                "sentence": line_cells[5]}
+
+    else:
+        return {"item": line_cells[0],
+                "condition": line_cells[1],
+				"list": line_cells[2],
+                "sentence": line_cells[5],
+                "question": line_cells[7],
+                "correct_response": line_cells[8]}
+
+
+
+
+
+# list of lists
+trial_lines_list = list(filter(relevant_line, stimuli_file))
+
+trial_dicts_list = list(map(create_dict, trial_lines_list))
+print(trial_dicts_list)
+
+print("total number of trials: "+str(len(trial_dicts_list)))
+
+trials = json.dumps(trial_dicts_list, ensure_ascii=False)
+
+out = "const maintrials ="+trials
+
+out_unicode = out.encode("utf8")
+
+#save file as stimuli.js
+f = open("web\js\stimuli.js","wb")
+f.write(out_unicode)
+f.close()
+
+
+

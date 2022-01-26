@@ -1,0 +1,11 @@
+left-right,id,missed_break_one,missed_break_two,missed_break_three,time_in_minutes,gender,age,language,fluent,asses,comments
+S,60f57c2770615,True,False,False,8.4357,Male,,Deutsch,Yes,Yes,
+S,60f580f123896,False,False,False,13.263383333333334,Female,21,Deutsch,Yes,Yes,
+L,60f58d01a44df,False,False,False,164.58901666666668,Female,20,deutsch,Yes,Yes,
+S,60f69be28c222,False,False,False,16.115716666666668,Male,27,Deutsch,No,Yes,
+L,60f749dcc468d,True,False,False,10.454866666666666,Male,19,deutsch,No,Yes,
+S,60f84599813c0,False,False,False,10.511916666666666,Female,23,deutsch,Yes,Yes,
+L,60f9330b009cd,True,False,True,12.571216666666666,Female,21,"deutsch, italienisch ",Yes,Yes,
+S,60f9714583ed9,True,False,False,15.223466666666667,Female,20,Deutsch,Yes,Yes,
+S,60fd32d015fdf,False,False,False,15.070466666666666,Male,20,Deutsch,Yes,Yes,
+S,61030ef13f615,True,False,False,7.982283333333333,Male,26,Deutsch,Yes,Confused,

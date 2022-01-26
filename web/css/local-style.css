@@ -1,0 +1,82 @@
+.slider {
+  /* default is width 400 and margin 10 */
+	width: 400;
+	margin: 10px;
+}
+
+.responses {
+	margin-top: 120px;
+}
+
+.left_response {
+	display: block;
+	float: left;
+	text-align: left;
+	font-size: 100%;
+}
+
+.right_response {
+	display: block;
+	float: right;
+	text-align: right;
+	font-size: 100%;
+}
+
+.progress{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.progress span{
+  position:relative;
+  top: -6px;
+}
+
+.display_condition {
+	margin-top: 40px;
+}
+
+
+.slider {
+	text-align: center;
+}
+
+
+.optionset{
+    text-align: left;
+}
+
+label {
+    display: block;
+    padding-left: 20px;
+}
+
+.bar-wrapper{
+    height:20px;
+    width:200px;
+    border:1px solid #000000;
+    display:inline-block;
+}
+
+.bar{
+    position:relative;
+    height:100%;
+    width:0px;
+    background-color:#000000
+}
+
+/*.progress {
+        display: none;
+}*/
+
+/*hide on small screens*/
+@media only screen and (max-height: 800px) {
+    .progress {
+        display: none;
+    }
+}
+
+
+.image_display{
+	margin-top: 80px;
+}

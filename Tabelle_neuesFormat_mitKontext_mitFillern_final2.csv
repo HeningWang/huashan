@@ -1,0 +1,244 @@
+Item (prelim.),Shape,Pattern,Size_A,Size_B,Size_C,Size_D,Size_E,Size_F,Colour_A,Colour_B,Colour_C,Colour_D,Colour_E,Colour_F,Marked,Context,sentence_1,sentence_2,Condition,List (prelim.)
+1,Ball,x,10,4,3,2,2,1,6,5,5,5,5,5,1,Conny erwähnt gegenüber Chris:,Ich mag den blauen Ball.,Ich mag den blauen großen Ball.,dap,1
+1,Ball,x,10,4,3,2,2,1,6,5,5,5,5,5,1,Conny erwähnt gegenüber Chris:,Ich mag den blauen Ball.,Ich mag den blauen großen Ball.,dap,2
+1,Ball,x,10,4,3,2,2,1,6,5,5,5,5,5,1,Conny erwähnt gegenüber Chris:,Ich mag den blauen Ball.,Ich mag den blauen großen Ball.,dap,3
+1,Ball,x,10,4,3,2,2,1,6,5,5,5,5,5,1,Conny erwähnt gegenüber Chris:,Ich mag den blauen Ball.,Ich mag den blauen großen Ball.,dap,4
+2,Ball,x,8,4,3,3,4,2,6,6,6,6,6,6,1,Alex bestätigt gegenüber Conny:,Ich mag den blauen Ball.,Ich mag den großen blauen Ball.,dap,1
+2,Ball,x,8,4,3,3,4,2,6,6,6,6,6,6,1,Alex bestätigt gegenüber Conny:,Ich mag den blauen Ball.,Ich mag den großen blauen Ball.,dap,2
+2,Ball,x,8,4,3,3,4,2,6,6,6,6,6,6,1,Alex bestätigt gegenüber Conny:,Ich mag den blauen Ball.,Ich mag den großen blauen Ball.,dap,3
+2,Ball,x,8,4,3,3,4,2,6,6,6,6,6,6,1,Alex bestätigt gegenüber Conny:,Ich mag den blauen Ball.,Ich mag den großen blauen Ball.,dap,4
+3,Ball,x,10,4,2,4,2,3,6,6,6,6,6,6,1,Dani meint gegenüber Maxi:,Ich mag den blauen Ball.,Ich mag den großen Ball.,dap,1
+3,Ball,x,10,4,2,4,2,3,6,6,6,6,6,6,1,Dani meint gegenüber Maxi:,Ich mag den blauen Ball.,Ich mag den großen Ball.,dap,2
+3,Ball,x,10,4,2,4,2,3,6,6,6,6,6,6,1,Dani meint gegenüber Maxi:,Ich mag den blauen Ball.,Ich mag den großen Ball.,dap,3
+3,Ball,x,10,4,2,4,2,3,6,6,6,6,6,6,1,Dani meint gegenüber Maxi:,Ich mag den blauen Ball.,Ich mag den großen Ball.,dap,4
+4,Ball,x,10,3,4,4,1,4,6,7,7,7,7,7,1,Chris sagt zu Dani:,Ich mag den großen Ball.,Ich mag den blauen Ball. ,dap,1
+4,Ball,x,10,3,4,4,1,4,6,7,7,7,7,7,1,Chris sagt zu Dani:,Ich mag den großen Ball.,Ich mag den blauen Ball. ,dap,2
+4,Ball,x,10,3,4,4,1,4,6,7,7,7,7,7,1,Chris sagt zu Dani:,Ich mag den großen Ball.,Ich mag den blauen Ball. ,dap,3
+4,Ball,x,10,3,4,4,1,4,6,7,7,7,7,7,1,Chris sagt zu Dani:,Ich mag den großen Ball.,Ich mag den blauen Ball. ,dap,4
+5,Ball,y,10,3,4,1,1,2,5,6,6,6,6,6,1,Dani sagt zu Chris:,Ich mag den orangenen Ball.,Ich mag den orangenen großen Ball.,dap,1
+5,Ball,y,10,3,4,1,1,2,5,6,6,6,6,6,1,Dani sagt zu Chris:,Ich mag den orangenen Ball.,Ich mag den orangenen großen Ball.,dap,2
+5,Ball,y,10,3,4,1,1,2,5,6,6,6,6,6,1,Dani sagt zu Chris:,Ich mag den orangenen Ball.,Ich mag den orangenen großen Ball.,dap,3
+5,Ball,y,10,3,4,1,1,2,5,6,6,6,6,6,1,Dani sagt zu Chris:,Ich mag den orangenen Ball.,Ich mag den orangenen großen Ball.,dap,4
+6,Ball,y,9,2,2,4,4,4,5,7,7,7,7,7,1,Maxi meint gegenüber Dani:,Ich mag den orangenen Ball.,Ich mag den großen orangenen Ball.,dap,1
+6,Ball,y,9,2,2,4,4,4,5,7,7,7,7,7,1,Maxi meint gegenüber Dani:,Ich mag den orangenen Ball.,Ich mag den großen orangenen Ball.,dap,2
+6,Ball,y,9,2,2,4,4,4,5,7,7,7,7,7,1,Maxi meint gegenüber Dani:,Ich mag den orangenen Ball.,Ich mag den großen orangenen Ball.,dap,3
+6,Ball,y,9,2,2,4,4,4,5,7,7,7,7,7,1,Maxi meint gegenüber Dani:,Ich mag den orangenen Ball.,Ich mag den großen orangenen Ball.,dap,4
+7,Ball,y,10,5,2,1,2,3,5,6,6,6,6,6,1,Conny bestätigt gegenüber Alex:,Ich mag den orangenen Ball.,Ich mag den großen Ball.,dap,1
+7,Ball,y,10,5,2,1,2,3,5,6,6,6,6,6,1,Conny bestätigt gegenüber Alex:,Ich mag den orangenen Ball.,Ich mag den großen Ball.,dap,2
+7,Ball,y,10,5,2,1,2,3,5,6,6,6,6,6,1,Conny bestätigt gegenüber Alex:,Ich mag den orangenen Ball.,Ich mag den großen Ball.,dap,3
+7,Ball,y,10,5,2,1,2,3,5,6,6,6,6,6,1,Conny bestätigt gegenüber Alex:,Ich mag den orangenen Ball.,Ich mag den großen Ball.,dap,4
+8,Ball,y,9,3,1,3,2,3,5,7,7,7,7,7,1,Chris erwähnt gegenüber Conny:,Ich mag den großen Ball.,Ich mag den orangenen Ball. ,dap,1
+8,Ball,y,9,3,1,3,2,3,5,7,7,7,7,7,1,Chris erwähnt gegenüber Conny:,Ich mag den großen Ball.,Ich mag den orangenen Ball. ,dap,2
+8,Ball,y,9,3,1,3,2,3,5,7,7,7,7,7,1,Chris erwähnt gegenüber Conny:,Ich mag den großen Ball.,Ich mag den orangenen Ball. ,dap,3
+8,Ball,y,9,3,1,3,2,3,5,7,7,7,7,7,1,Chris erwähnt gegenüber Conny:,Ich mag den großen Ball.,Ich mag den orangenen Ball. ,dap,4
+9,Haus,x,9,2,1,4,1,2,5,7,7,7,7,7,1,Maxi erwähnt gegenüber Dani:,Ich mag das orangene Haus.,Ich mag das orangene hohe Haus.,dap,1
+9,Haus,x,9,2,1,4,1,2,5,7,7,7,7,7,1,Maxi erwähnt gegenüber Dani:,Ich mag das orangene Haus.,Ich mag das orangene hohe Haus.,dap,2
+9,Haus,x,9,2,1,4,1,2,5,7,7,7,7,7,1,Maxi erwähnt gegenüber Dani:,Ich mag das orangene Haus.,Ich mag das orangene hohe Haus.,dap,3
+9,Haus,x,9,2,1,4,1,2,5,7,7,7,7,7,1,Maxi erwähnt gegenüber Dani:,Ich mag das orangene Haus.,Ich mag das orangene hohe Haus.,dap,4
+10,Haus,x,10,2,1,4,2,3,5,8,8,8,8,8,1,Toni bestätigt gegenüber Alex:,Ich mag das orangene Haus.,Ich mag das hohe orangene Haus.,dap,1
+10,Haus,x,10,2,1,4,2,3,5,8,8,8,8,8,1,Toni bestätigt gegenüber Alex:,Ich mag das orangene Haus.,Ich mag das hohe orangene Haus.,dap,2
+10,Haus,x,10,2,1,4,2,3,5,8,8,8,8,8,1,Toni bestätigt gegenüber Alex:,Ich mag das orangene Haus.,Ich mag das hohe orangene Haus.,dap,3
+10,Haus,x,10,2,1,4,2,3,5,8,8,8,8,8,1,Toni bestätigt gegenüber Alex:,Ich mag das orangene Haus.,Ich mag das hohe orangene Haus.,dap,4
+11,Haus,x,9,1,4,2,4,1,5,5,5,5,5,5,1,Dani meint gegenüber Toni:,Ich mag das orangene Haus.,Ich mag das hohe Haus.,dap,1
+11,Haus,x,9,1,4,2,4,1,5,5,5,5,5,5,1,Dani meint gegenüber Toni:,Ich mag das orangene Haus.,Ich mag das hohe Haus.,dap,2
+11,Haus,x,9,1,4,2,4,1,5,5,5,5,5,5,1,Dani meint gegenüber Toni:,Ich mag das orangene Haus.,Ich mag das hohe Haus.,dap,3
+11,Haus,x,9,1,4,2,4,1,5,5,5,5,5,5,1,Dani meint gegenüber Toni:,Ich mag das orangene Haus.,Ich mag das hohe Haus.,dap,4
+12,Haus,x,9,1,3,4,4,1,5,5,5,5,5,5,1,Conny sagt zu Alex:,Ich mag das hohe Haus.,Ich mag das orangene Haus.,dap,1
+12,Haus,x,9,1,3,4,4,1,5,5,5,5,5,5,1,Conny sagt zu Alex:,Ich mag das hohe Haus.,Ich mag das orangene Haus.,dap,2
+12,Haus,x,9,1,3,4,4,1,5,5,5,5,5,5,1,Conny sagt zu Alex:,Ich mag das hohe Haus.,Ich mag das orangene Haus.,dap,3
+12,Haus,x,9,1,3,4,4,1,5,5,5,5,5,5,1,Conny sagt zu Alex:,Ich mag das hohe Haus.,Ich mag das orangene Haus.,dap,4
+13,Haus,y,8,3,4,2,4,4,7,8,8,8,8,8,1,Alex sagt zu Conny:,Ich mag das graue Haus.,Ich mag das graue hohe Haus.,dap,1
+13,Haus,y,8,3,4,2,4,4,7,8,8,8,8,8,1,Alex sagt zu Conny:,Ich mag das graue Haus.,Ich mag das graue hohe Haus.,dap,2
+13,Haus,y,8,3,4,2,4,4,7,8,8,8,8,8,1,Alex sagt zu Conny:,Ich mag das graue Haus.,Ich mag das graue hohe Haus.,dap,3
+13,Haus,y,8,3,4,2,4,4,7,8,8,8,8,8,1,Alex sagt zu Conny:,Ich mag das graue Haus.,Ich mag das graue hohe Haus.,dap,4
+14,Haus,y,8,2,3,2,1,2,7,8,8,8,8,8,1,Toni meint gegenüber Dani:,Ich mag das graue Haus.,Ich mag das hohe graue Haus.,dap,1
+14,Haus,y,8,2,3,2,1,2,7,8,8,8,8,8,1,Toni meint gegenüber Dani:,Ich mag das graue Haus.,Ich mag das hohe graue Haus.,dap,2
+14,Haus,y,8,2,3,2,1,2,7,8,8,8,8,8,1,Toni meint gegenüber Dani:,Ich mag das graue Haus.,Ich mag das hohe graue Haus.,dap,3
+14,Haus,y,8,2,3,2,1,2,7,8,8,8,8,8,1,Toni meint gegenüber Dani:,Ich mag das graue Haus.,Ich mag das hohe graue Haus.,dap,4
+15,Haus,y,8,1,4,2,3,2,7,5,5,5,5,5,1,Alex bestätigt gegenüber Toni:,Ich mag das graue Haus.,Ich mag das hohe Haus.,dap,1
+15,Haus,y,8,1,4,2,3,2,7,5,5,5,5,5,1,Alex bestätigt gegenüber Toni:,Ich mag das graue Haus.,Ich mag das hohe Haus.,dap,2
+15,Haus,y,8,1,4,2,3,2,7,5,5,5,5,5,1,Alex bestätigt gegenüber Toni:,Ich mag das graue Haus.,Ich mag das hohe Haus.,dap,3
+15,Haus,y,8,1,4,2,3,2,7,5,5,5,5,5,1,Alex bestätigt gegenüber Toni:,Ich mag das graue Haus.,Ich mag das hohe Haus.,dap,4
+16,Haus,y,8,4,2,2,1,2,7,6,6,6,6,6,1,Dani erwähnt gegenüber Maxi:,Ich mag das hohe Haus.,Ich mag das graue Haus.,dap,1
+16,Haus,y,8,4,2,2,1,2,7,6,6,6,6,6,1,Dani erwähnt gegenüber Maxi:,Ich mag das hohe Haus.,Ich mag das graue Haus.,dap,2
+16,Haus,y,8,4,2,2,1,2,7,6,6,6,6,6,1,Dani erwähnt gegenüber Maxi:,Ich mag das hohe Haus.,Ich mag das graue Haus.,dap,3
+16,Haus,y,8,4,2,2,1,2,7,6,6,6,6,6,1,Dani erwähnt gegenüber Maxi:,Ich mag das hohe Haus.,Ich mag das graue Haus.,dap,4
+17,Linie,x,9,4,2,3,1,4,8,8,8,8,8,8,1,Alex erwähnt gegenüber Maxi:,Ich mag die schwarze Linie.,Ich mag die schwarze lange Linie.,dap,1
+17,Linie,x,9,4,2,3,1,4,8,8,8,8,8,8,1,Alex erwähnt gegenüber Maxi:,Ich mag die schwarze Linie.,Ich mag die schwarze lange Linie.,dap,2
+17,Linie,x,9,4,2,3,1,4,8,8,8,8,8,8,1,Alex erwähnt gegenüber Maxi:,Ich mag die schwarze Linie.,Ich mag die schwarze lange Linie.,dap,3
+17,Linie,x,9,4,2,3,1,4,8,8,8,8,8,8,1,Alex erwähnt gegenüber Maxi:,Ich mag die schwarze Linie.,Ich mag die schwarze lange Linie.,dap,4
+18,Linie,x,8,1,3,2,4,2,8,7,7,7,7,7,1,Chris bestätigt gegenüber Maxi:,Ich mag die schwarze Linie.,Ich mag die lange schwarze Linie.,dap,1
+18,Linie,x,8,1,3,2,4,2,8,7,7,7,7,7,1,Chris bestätigt gegenüber Maxi:,Ich mag die schwarze Linie.,Ich mag die lange schwarze Linie.,dap,2
+18,Linie,x,8,1,3,2,4,2,8,7,7,7,7,7,1,Chris bestätigt gegenüber Maxi:,Ich mag die schwarze Linie.,Ich mag die lange schwarze Linie.,dap,3
+18,Linie,x,8,1,3,2,4,2,8,7,7,7,7,7,1,Chris bestätigt gegenüber Maxi:,Ich mag die schwarze Linie.,Ich mag die lange schwarze Linie.,dap,4
+19,Linie,x,8,2,3,3,2,3,8,8,8,8,8,8,1,Max meint gegenüber Chris:,Ich mag die schwarze Linie.,Ich mag die lange Linie.,dap,1
+19,Linie,x,8,2,3,3,2,3,8,8,8,8,8,8,1,Max meint gegenüber Chris:,Ich mag die schwarze Linie.,Ich mag die lange Linie.,dap,2
+19,Linie,x,8,2,3,3,2,3,8,8,8,8,8,8,1,Max meint gegenüber Chris:,Ich mag die schwarze Linie.,Ich mag die lange Linie.,dap,3
+19,Linie,x,8,2,3,3,2,3,8,8,8,8,8,8,1,Max meint gegenüber Chris:,Ich mag die schwarze Linie.,Ich mag die lange Linie.,dap,4
+20,Linie,x,8,2,4,3,4,3,8,6,6,6,6,6,1,Toni sagt zu Conny:,Ich mag die lange Linie.,Ich mag die schwarze Linie.,dap,1
+20,Linie,x,8,2,4,3,4,3,8,6,6,6,6,6,1,Toni sagt zu Conny:,Ich mag die lange Linie.,Ich mag die schwarze Linie.,dap,2
+20,Linie,x,8,2,4,3,4,3,8,6,6,6,6,6,1,Toni sagt zu Conny:,Ich mag die lange Linie.,Ich mag die schwarze Linie.,dap,3
+20,Linie,x,8,2,4,3,4,3,8,6,6,6,6,6,1,Toni sagt zu Conny:,Ich mag die lange Linie.,Ich mag die schwarze Linie.,dap,4
+21,Linie,y,9,4,1,3,3,2,6,5,5,5,5,5,1,Conny sagt zu Toni:,Ich mag die blaue Linie.,Ich mag die blaue lange Linie.,dap,1
+21,Linie,y,9,4,1,3,3,2,6,5,5,5,5,5,1,Conny sagt zu Toni:,Ich mag die blaue Linie.,Ich mag die blaue lange Linie.,dap,2
+21,Linie,y,9,4,1,3,3,2,6,5,5,5,5,5,1,Conny sagt zu Toni:,Ich mag die blaue Linie.,Ich mag die blaue lange Linie.,dap,3
+21,Linie,y,9,4,1,3,3,2,6,5,5,5,5,5,1,Conny sagt zu Toni:,Ich mag die blaue Linie.,Ich mag die blaue lange Linie.,dap,4
+22,Linie,y,10,1,4,3,4,4,6,7,7,7,7,7,1,Chris meint gegenüber Maxi:,Ich mag die blaue Linie.,Ich mag die blaue lange Linie.,dap,1
+22,Linie,y,10,1,4,3,4,4,6,7,7,7,7,7,1,Chris meint gegenüber Maxi:,Ich mag die blaue Linie.,Ich mag die blaue lange Linie.,dap,2
+22,Linie,y,10,1,4,3,4,4,6,7,7,7,7,7,1,Chris meint gegenüber Maxi:,Ich mag die blaue Linie.,Ich mag die blaue lange Linie.,dap,3
+22,Linie,y,10,1,4,3,4,4,6,7,7,7,7,7,1,Chris meint gegenüber Maxi:,Ich mag die blaue Linie.,Ich mag die blaue lange Linie.,dap,4
+23,Linie,y,8,2,3,4,3,2,6,8,8,8,8,8,1,Maxi bestätigt gegenüber Chris:,Ich mag die blaue Linie.,Ich mag die lange Linie.,dap,1
+23,Linie,y,8,2,3,4,3,2,6,8,8,8,8,8,1,Maxi bestätigt gegenüber Chris:,Ich mag die blaue Linie.,Ich mag die lange Linie.,dap,2
+23,Linie,y,8,2,3,4,3,2,6,8,8,8,8,8,1,Maxi bestätigt gegenüber Chris:,Ich mag die blaue Linie.,Ich mag die lange Linie.,dap,3
+23,Linie,y,8,2,3,4,3,2,6,8,8,8,8,8,1,Maxi bestätigt gegenüber Chris:,Ich mag die blaue Linie.,Ich mag die lange Linie.,dap,4
+24,Linie,y,10,2,1,1,2,4,6,5,5,5,5,5,1,Maxi erwähnt gegenüber Alex:,Ich mag die lange Linie.,Ich mag die blaue Linie.,dap,1
+24,Linie,y,10,2,1,1,2,4,6,5,5,5,5,5,1,Maxi erwähnt gegenüber Alex:,Ich mag die lange Linie.,Ich mag die blaue Linie.,dap,2
+24,Linie,y,10,2,1,1,2,4,6,5,5,5,5,5,1,Maxi erwähnt gegenüber Alex:,Ich mag die lange Linie.,Ich mag die blaue Linie.,dap,3
+24,Linie,y,10,2,1,1,2,4,6,5,5,5,5,5,1,Maxi erwähnt gegenüber Alex:,Ich mag die lange Linie.,Ich mag die blaue Linie.,dap,4
+25,Ball,x,10,2,2,3,3,2,5,5,8,8,8,5,1,Dani bestätigt gegenüber Chris:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,grosse_scharf,1
+26,Ball,x,10,2,2,1,2,2,8,8,7,7,7,8,1,Toni bestätigt gegenüber Conny:,Ich mag den großen schwarzen Ball.,Ich mag den schwarzen großen Ball. ,grosse_scharf,2
+27,Ball,x,9,1,2,1,1,3,6,6,6,5,5,5,1,Chris bestätigt gegenüber Conny:,Ich mag den großen blauen Ball.,Ich mag den blauen großen Ball. ,grosse_scharf,3
+28,Ball,x,10,1,3,1,1,3,7,6,6,6,7,7,1,Alex bestätigt gegenüber Toni:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,grosse_scharf,4
+29,Ball,x,10,1,2,2,2,2,7,8,8,8,7,7,1,Dani bestätigt gegenüber Conny:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,grosse_scharf,2
+30,Ball,x,9,1,2,3,1,1,5,5,5,7,7,7,1,Alex bestätigt gegenüber Conny:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,grosse_scharf,3
+31,Ball,y,9,2,3,3,1,3,5,6,6,5,6,5,1,Dani bestätigt gegenüber Chris:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,grosse_scharf,4
+32,Ball,y,9,1,1,3,3,1,8,8,6,6,6,8,1,Toni bestätigt gegenüber Conny:,Ich mag den großen schwarzen Ball.,Ich mag den schwarzen großen Ball. ,grosse_scharf,1
+33,Ball,y,9,2,1,2,1,3,6,7,7,6,7,6,1,Chris bestätigt gegenüber Conny:,Ich mag den großen blauen Ball.,Ich mag den blauen großen Ball. ,grosse_scharf,3
+34,Ball,y,9,2,3,1,2,3,7,7,8,8,7,8,1,Alex bestätigt gegenüber Toni:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,grosse_scharf,4
+35,Ball,y,10,3,3,3,3,1,7,5,5,5,7,7,1,Dani bestätigt gegenüber Conny:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,grosse_scharf,1
+36,Ball,y,10,2,2,3,1,3,5,5,5,6,6,6,1,Alex bestätigt gegenüber Conny:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,grosse_scharf,2
+37,Haus,x,10,1,1,2,2,2,7,7,7,8,8,8,1,Chris bestätigt gegenüber Dani:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,grosse_scharf,4
+38,Haus,x,10,2,3,3,3,3,6,6,6,7,7,7,1,Alex bestätigt gegenüber Maxi:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,grosse_scharf,1
+39,Haus,x,10,3,1,2,1,1,7,7,7,5,5,5,1,Conny bestätigt gegenüber Chris:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,grosse_scharf,2
+40,Haus,x,10,1,2,1,1,2,8,7,7,7,8,8,1,Conny bestätigt gegenüber Dani:,Ich mag das hohe schwarze Haus.,Ich mag das schwarze hohe Haus. ,grosse_scharf,3
+41,Haus,x,10,1,1,2,2,3,6,6,5,5,5,6,1,Dani bestätigt gegenüber Conny:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,grosse_scharf,1
+42,Haus,x,9,2,2,3,3,3,7,7,7,8,8,8,1,Toni bestätigt gegenüber Chris:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,grosse_scharf,2
+43,Haus,y,10,3,3,2,2,3,7,7,6,6,6,7,1,Chris bestätigt gegenüber Dani:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,grosse_scharf,3
+44,Haus,y,9,1,3,2,1,2,6,6,7,7,7,6,1,Alex bestätigt gegenüber Maxi:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,grosse_scharf,4
+45,Haus,y,9,2,3,3,2,2,7,7,7,5,5,5,1,Conny bestätigt gegenüber Chris:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,grosse_scharf,2
+46,Haus,y,10,3,3,1,3,1,8,8,8,7,7,8,1,Conny bestätigt gegenüber Dani:,Ich mag das hohe schwarze Haus.,Ich mag das schwarze hohe Haus. ,grosse_scharf,3
+47,Haus,y,9,3,2,3,2,2,6,6,5,5,5,6,1,Dani bestätigt gegenüber Conny:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,grosse_scharf,4
+48,Haus,y,9,2,1,1,1,2,7,8,7,8,8,7,1,Toni bestätigt gegenüber Chris:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,grosse_scharf,1
+49,Linie,x,10,2,3,1,3,1,6,7,6,7,6,7,1,Conny bestätigt gegenüber Toni:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,grosse_scharf,3
+50,Linie,x,9,3,1,1,2,3,8,5,5,5,8,8,1,Maxi bestätigt gegenüber Alex:,Ich mag die lange schwarze Linie.,Ich mag die schwarze lange Linie. ,grosse_scharf,4
+51,Linie,x,10,2,1,3,2,3,7,7,8,7,8,8,1,Toni bestätigt gegenüber Alex:,Ich mag die lange graue Linie.,Ich mag die graue lange Linie. ,grosse_scharf,1
+52,Linie,x,9,3,1,1,3,1,5,5,6,5,6,6,1,Dani bestätigt gegenüber Conny:,Ich mag die lange orangene Linie.,Ich mag die orangene lange Linie. ,grosse_scharf,2
+53,Linie,x,10,2,1,2,1,2,5,5,5,8,8,8,1,Chris bestätigt gegenüber Alex:,Ich mag die lange orangene Linie.,Ich mag die orangene lange Linie. ,grosse_scharf,4
+54,Linie,x,10,1,1,2,3,1,6,6,6,8,8,8,1,Conny bestätigt gegenüber Chris:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,grosse_scharf,1
+55,Linie,y,9,1,1,1,3,1,6,6,6,7,7,7,1,Conny bestätigt gegenüber Toni:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,grosse_scharf,2
+56,Linie,y,10,3,2,2,1,3,8,8,8,5,5,5,1,Maxi bestätigt gegenüber Alex:,Ich mag die lange schwarze Linie.,Ich mag die schwarze lange Linie. ,grosse_scharf,3
+57,Linie,y,10,1,3,2,1,3,7,7,5,5,5,7,1,Toni bestätigt gegenüber Alex:,Ich mag die lange graue Linie.,Ich mag die graue lange Linie. ,grosse_scharf,1
+58,Linie,y,9,2,2,2,3,3,5,5,5,8,8,8,1,Dani bestätigt gegenüber Conny:,Ich mag die lange orangene Linie.,Ich mag die orangene lange Linie. ,grosse_scharf,2
+59,Linie,y,10,2,3,3,2,2,5,5,5,6,6,6,1,Chris bestätigt gegenüber Alex:,Ich mag die lange orangene Linie.,Ich mag die orangene lange Linie. ,grosse_scharf,3
+60,Linie,y,10,2,1,2,3,1,6,6,6,8,8,8,1,Conny bestätigt gegenüber Chris:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,grosse_scharf,4
+61,Ball,x,10,9,10,5,1,3,5,6,6,6,6,6,1,Dani meint gegenüber Chris:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,farbe_unscharf,2
+62,Ball,x,9,10,10,6,2,3,5,8,8,8,8,8,1,Toni meint gegenüber Conny:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,farbe_unscharf,3
+63,Ball,x,10,10,9,4,2,4,8,5,5,5,5,5,1,Chris meint gegenüber Conny:,Ich mag den großen schwarzen Ball.,Ich mag den schwarzen großen Ball. ,farbe_unscharf,4
+64,Ball,x,10,9,10,3,4,2,6,5,5,5,5,5,1,Alex meint gegenüber Toni:,Ich mag den großen blauen Ball.,Ich mag den blauen großen Ball. ,farbe_unscharf,1
+65,Ball,x,9,10,10,3,5,5,7,5,5,5,5,5,1,Dani meint gegenüber Conny:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,farbe_unscharf,3
+66,Ball,x,10,10,9,4,6,5,6,7,7,7,7,7,1,Toni meint gegenüber Chris:,Ich mag den großen blauen Ball.,Ich mag den blauen großen Ball. ,farbe_unscharf,4
+67,Ball,y,9,9,10,6,5,2,5,6,6,6,6,6,1,Dani meint gegenüber Chris:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,farbe_unscharf,1
+68,Ball,y,9,10,10,5,6,2,5,7,7,7,7,7,1,Toni meint gegenüber Conny:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,farbe_unscharf,2
+69,Ball,y,9,9,10,5,2,6,8,5,5,5,5,5,1,Chris meint gegenüber Conny:,Ich mag den großen schwarzen Ball.,Ich mag den schwarzen großen Ball. ,farbe_unscharf,4
+70,Ball,y,10,10,9,3,2,5,6,8,8,8,8,8,1,Alex meint gegenüber Toni:,Ich mag den großen blauen Ball.,Ich mag den blauen großen Ball. ,farbe_unscharf,1
+71,Ball,y,9,10,9,3,2,3,7,5,5,5,5,5,1,Dani meint gegenüber Conny:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,farbe_unscharf,2
+72,Ball,y,10,9,9,4,2,6,6,7,7,7,7,7,1,Toni meint gegenüber Chris:,Ich mag den großen blauen Ball.,Ich mag den blauen großen Ball. ,farbe_unscharf,3
+73,Haus,x,9,10,10,3,4,5,7,6,6,6,6,6,1,Chris meint gegenüber Dani:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,farbe_unscharf,1
+74,Haus,x,10,10,10,1,3,5,7,8,8,8,8,8,1,Alex meint gegenüber Maxi:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,farbe_unscharf,2
+75,Haus,x,10,10,10,2,3,6,5,6,6,6,6,6,1,Conny meint gegenüber Chris:,Ich mag das hohe orangene Haus.,Ich mag das orangene hohe Haus. ,farbe_unscharf,3
+76,Haus,x,9,10,10,3,6,3,6,5,5,5,5,5,1,Conny meint gegenüber Dani:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,farbe_unscharf,4
+77,Haus,x,9,9,9,6,6,1,8,6,6,6,6,6,1,Chris meint gegenüber Alex:,Ich mag das hohe schwarze Haus.,Ich mag das schwarze hohe Haus. ,farbe_unscharf,2
+78,Haus,x,9,10,10,6,3,3,8,5,5,5,5,5,1,Conny meint gegenüber Chris:,Ich mag das hohe schwarze Haus.,Ich mag das schwarze hohe Haus. ,farbe_unscharf,3
+79,Haus,y,10,10,9,1,4,4,7,6,6,6,6,6,1,Chris meint gegenüber Dani:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,farbe_unscharf,4
+80,Haus,y,9,10,10,5,2,2,7,5,5,5,5,5,1,Alex meint gegenüber Maxi:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,farbe_unscharf,1
+81,Haus,y,10,9,10,1,6,3,5,7,7,7,7,7,1,Conny meint gegenüber Chris:,Ich mag das hohe orangene Haus.,Ich mag das orangene hohe Haus. ,farbe_unscharf,3
+82,Haus,y,10,10,10,1,4,6,6,8,8,8,8,8,1,Conny meint gegenüber Dani:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,farbe_unscharf,4
+83,Haus,y,9,10,10,2,1,2,8,6,6,6,6,6,1,Chris meint gegenüber Alex:,Ich mag das hohe schwarze Haus.,Ich mag das schwarze hohe Haus. ,farbe_unscharf,1
+84,Haus,y,9,10,9,2,6,6,8,5,5,5,5,5,1,Conny meint gegenüber Chris:,Ich mag das hohe schwarze Haus.,Ich mag das schwarze hohe Haus. ,farbe_unscharf,2
+85,Linie,x,9,10,10,3,1,5,8,6,6,6,6,6,1,Conny meint gegenüber Toni:,Ich mag die lange schwarze Linie.,Ich mag die schwarze lange Linie. ,farbe_unscharf,4
+86,Linie,x,10,9,9,3,2,5,6,8,8,8,8,8,1,Maxi meint gegenüber Alex:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,farbe_unscharf,1
+87,Linie,x,9,10,9,6,3,1,5,7,7,7,7,7,1,Toni meint gegenüber Alex:,Ich mag die lange orangene Linie.,Ich mag die orangene lange Linie. ,farbe_unscharf,2
+88,Linie,x,10,9,9,1,5,6,8,6,6,6,6,6,1,Dani meint gegenüber Conny:,Ich mag die lange schwarze Linie.,Ich mag die schwarze lange Linie. ,farbe_unscharf,3
+89,Linie,x,9,9,10,5,5,2,5,7,7,7,7,7,1,Alex meint gegenüber Conny:,Ich mag die lange orangene Linie.,Ich mag die orangene lange Linie. ,farbe_unscharf,1
+90,Linie,x,10,9,10,3,4,1,7,8,8,8,8,8,1,Maxi meint gegenüber Toni:,Ich mag die lange graue Linie.,Ich mag die graue lange Linie. ,farbe_unscharf,2
+91,Linie,y,9,9,10,5,3,6,8,6,6,6,6,6,1,Conny meint gegenüber Toni:,Ich mag die lange schwarze Linie.,Ich mag die schwarze lange Linie. ,farbe_unscharf,3
+92,Linie,y,9,9,9,4,1,6,6,8,8,8,8,8,1,Maxi meint gegenüber Alex:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,farbe_unscharf,4
+93,Linie,y,9,10,9,5,5,1,5,7,7,7,7,7,1,Toni meint gegenüber Alex:,Ich mag die lange orangene Linie.,Ich mag die orangene lange Linie. ,farbe_unscharf,2
+94,Linie,y,9,10,9,5,6,2,8,5,5,5,5,5,1,Dani meint gegenüber Conny:,Ich mag die lange schwarze Linie.,Ich mag die schwarze lange Linie. ,farbe_unscharf,3
+95,Linie,y,10,10,9,4,4,6,5,7,7,7,7,7,1,Alex meint gegenüber Conny:,Ich mag die lange orangene Linie.,Ich mag die orangene lange Linie. ,farbe_unscharf,4
+96,Linie,y,10,9,10,1,5,5,7,8,8,8,8,8,1,Maxi meint gegenüber Toni:,Ich mag die lange graue Linie.,Ich mag die graue lange Linie. ,farbe_unscharf,1
+97,Ball,x,10,5,2,6,6,3,6,6,8,8,8,6,1,Maxi erwähnt gegenüber Toni:,Ich mag den großen blauen Ball.,Ich mag den blauen großen Ball. ,grosse_unscharf,3
+98,Ball,x,10,1,1,1,5,1,8,8,7,7,7,8,1,Toni erwähnt gegenüber Conny:,Ich mag den großen schwarzen Ball.,Ich mag den schwarzen großen Ball. ,grosse_unscharf,4
+99,Ball,x,9,5,6,4,5,5,6,6,6,5,5,5,1,Chris erwähnt gegenüber Conny:,Ich mag den großen blauen Ball.,Ich mag den blauen großen Ball. ,grosse_unscharf,1
+100,Ball,x,10,2,1,4,4,5,7,6,6,6,7,7,1,Alex erwähnt gegenüber Toni:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,grosse_unscharf,2
+101,Ball,x,10,4,6,5,6,1,7,8,8,8,7,7,1,Dani erwähnt gegenüber Conny:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,grosse_unscharf,4
+102,Ball,x,9,1,2,3,3,1,5,5,5,7,7,7,1,Alex erwähnt gegenüber Conny:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,grosse_unscharf,1
+103,Ball,y,9,2,3,4,2,6,5,6,6,5,6,5,1,Maxi erwähnt gegenüber Toni:,Ich mag den großen blauen Ball.,Ich mag den blauen großen Ball. ,grosse_unscharf,2
+104,Ball,y,9,6,1,2,6,2,8,8,6,6,6,8,1,Toni erwähnt gegenüber Conny:,Ich mag den großen schwarzen Ball.,Ich mag den schwarzen großen Ball. ,grosse_unscharf,3
+105,Ball,y,9,4,6,3,4,5,6,7,7,6,7,6,1,Chris erwähnt gegenüber Conny:,Ich mag den großen blauen Ball.,Ich mag den blauen großen Ball. ,grosse_unscharf,1
+106,Ball,y,9,1,2,3,4,6,7,7,8,8,7,8,1,Alex erwähnt gegenüber Toni:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,grosse_unscharf,2
+107,Ball,y,10,1,3,4,6,4,7,5,5,5,7,7,1,Dani erwähnt gegenüber Conny:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,grosse_unscharf,3
+108,Ball,y,10,6,2,2,4,3,5,5,5,6,6,6,1,Alex erwähnt gegenüber Conny:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,grosse_unscharf,4
+109,Haus,x,10,2,1,3,4,4,7,7,7,8,8,8,1,Chris erwähnt gegenüber Dani:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,grosse_unscharf,2
+110,Haus,x,10,6,6,1,1,1,6,6,6,7,7,7,1,Alex erwähnt gegenüber Maxi:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,grosse_unscharf,3
+111,Haus,x,10,5,5,2,6,1,7,7,7,5,5,5,1,Conny erwähnt gegenüber Chris:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,grosse_unscharf,4
+112,Haus,x,10,1,4,3,4,6,8,7,7,7,8,8,1,Conny erwähnt gegenüber Dani:,Ich mag das hohe schwarze Haus.,Ich mag das schwarze hohe Haus. ,grosse_unscharf,1
+113,Haus,x,10,5,4,1,3,3,6,6,5,5,5,6,1,Dani erwähnt gegenüber Conny:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,grosse_unscharf,3
+114,Haus,x,9,2,3,3,2,4,7,7,7,8,8,8,1,Toni erwähnt gegenüber Chris:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,grosse_unscharf,4
+115,Haus,y,10,5,4,2,4,4,7,7,6,6,6,7,1,Chris erwähnt gegenüber Dani:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,grosse_unscharf,1
+116,Haus,y,9,1,5,3,1,2,6,6,7,7,7,6,1,Alex erwähnt gegenüber Maxi:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,grosse_unscharf,2
+117,Haus,y,9,1,5,5,6,1,7,7,7,5,5,5,1,Conny erwähnt gegenüber Chris:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,grosse_unscharf,4
+118,Haus,y,10,5,1,3,2,5,8,8,8,7,7,8,1,Conny erwähnt gegenüber Dani:,Ich mag das hohe schwarze Haus.,Ich mag das schwarze hohe Haus. ,grosse_unscharf,1
+119,Haus,y,9,3,4,1,6,6,6,6,5,5,5,6,1,Dani erwähnt gegenüber Conny:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,grosse_unscharf,2
+120,Haus,y,9,6,1,6,1,1,7,8,7,8,8,7,1,Toni erwähnt gegenüber Chris:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,grosse_unscharf,3
+121,Linie,x,10,4,5,6,2,2,6,7,6,7,6,7,1,Conny erwähnt gegenüber Toni:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,grosse_unscharf,1
+122,Linie,x,9,4,5,2,2,6,6,5,5,5,6,6,1,Maxi erwähnt gegenüber Alex:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,grosse_unscharf,2
+123,Linie,x,10,6,1,3,4,2,7,7,8,7,8,8,1,Toni erwähnt gegenüber Alex:,Ich mag die lange graue Linie.,Ich mag die graue lange Linie. ,grosse_unscharf,3
+124,Linie,x,9,6,4,1,2,5,5,5,6,5,6,6,1,Dani erwähnt gegenüber Conny:,Ich mag die lange orangene Linie.,Ich mag die orangene lange Linie. ,grosse_unscharf,4
+125,Linie,x,10,3,1,1,2,3,6,6,6,8,8,8,1,Chris erwähnt gegenüber Alex:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,grosse_unscharf,2
+126,Linie,x,10,5,2,4,6,5,6,6,6,5,5,5,1,Conny erwähnt gegenüber Chris:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,grosse_unscharf,3
+127,Linie,y,9,5,5,2,6,2,6,6,6,7,7,7,1,Conny erwähnt gegenüber Toni:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,grosse_unscharf,4
+128,Linie,y,10,1,6,6,4,2,6,6,6,8,8,8,1,Maxi erwähnt gegenüber Alex:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,grosse_unscharf,1
+129,Linie,y,10,3,4,4,1,4,7,7,5,5,5,7,1,Toni erwähnt gegenüber Alex:,Ich mag die lange graue Linie.,Ich mag die graue lange Linie. ,grosse_unscharf,3
+130,Linie,y,9,6,6,2,4,2,5,5,5,8,8,8,1,Dani erwähnt gegenüber Conny:,Ich mag die lange orangene Linie.,Ich mag die orangene lange Linie. ,grosse_unscharf,4
+131,Linie,y,10,1,5,6,2,4,6,6,6,5,5,5,1,Chris erwähnt gegenüber Alex:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,grosse_unscharf,1
+132,Linie,y,10,3,5,6,6,1,6,6,6,8,8,8,1,Conny erwähnt gegenüber Chris:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,grosse_unscharf,2
+133,Ball,x,10,9,10,1,2,3,5,6,6,6,6,6,1,Dani sagt zu Chris:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,farbe_scharf,4
+134,Ball,x,9,10,10,3,1,1,8,5,5,5,5,5,1,Toni sagt zu Conny:,Ich mag den großen schwarzen Ball.,Ich mag den schwarzen großen Ball. ,farbe_scharf,1
+135,Ball,x,10,10,9,3,3,3,6,8,8,8,8,8,1,Chris sagt zu Conny:,Ich mag den großen blauen Ball.,Ich mag den blauen großen Ball. ,farbe_scharf,2
+136,Ball,x,10,9,10,2,1,1,7,5,5,5,5,5,1,Alex sagt zu Toni:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,farbe_scharf,3
+137,Ball,x,9,10,10,1,3,2,5,7,7,7,7,7,1,Dani sagt zu Conny:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,farbe_scharf,1
+138,Ball,x,10,10,9,1,3,3,7,6,6,6,6,6,1,Toni sagt zu Chris:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,farbe_scharf,2
+139,Ball,y,9,9,10,3,3,1,5,6,6,6,6,6,1,Dani sagt zu Chris:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,farbe_scharf,3
+140,Ball,y,9,10,10,3,1,1,8,7,7,7,7,7,1,Toni sagt zu Conny:,Ich mag den großen schwarzen Ball.,Ich mag den schwarzen großen Ball. ,farbe_scharf,4
+141,Ball,y,9,9,10,3,1,1,6,5,5,5,5,5,1,Chris sagt zu Conny:,Ich mag den großen blauen Ball.,Ich mag den blauen großen Ball. ,farbe_scharf,2
+142,Ball,y,10,10,9,2,3,1,7,8,8,8,8,8,1,Alex sagt zu Toni:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,farbe_scharf,3
+143,Ball,y,9,10,9,1,2,1,5,7,7,7,7,7,1,Dani sagt zu Conny:,Ich mag den großen orangenen Ball.,Ich mag den orangenen großen Ball.,farbe_scharf,4
+144,Ball,y,10,9,9,3,3,1,7,6,6,6,6,6,1,Toni sagt zu Chris:,Ich mag den großen grauen Ball.,Ich mag den grauen großen Ball. ,farbe_scharf,1
+145,Haus,x,9,10,10,3,3,1,7,6,6,6,6,6,1,Chris sagt zu Dani:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,farbe_scharf,3
+146,Haus,x,10,10,10,1,3,1,6,8,8,8,8,8,1,Alex sagt zu Maxi:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,farbe_scharf,4
+147,Haus,x,10,10,10,2,2,3,7,6,6,6,6,6,1,Conny sagt zu Chris:,Ich mag das hohe graue Haus. ,Ich mag das graue hohe Haus. ,farbe_scharf,1
+148,Haus,x,9,10,10,2,2,1,8,5,5,5,5,5,1,Conny sagt zu Dani:,Ich mag das hohe schwarze Haus.,Ich mag das schwarze hohe Haus. ,farbe_scharf,2
+149,Haus,x,9,9,9,1,1,1,6,8,8,8,8,8,1,Chris sagt zu Alex:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,farbe_scharf,4
+150,Haus,x,9,10,10,3,2,1,6,5,5,5,5,5,1,Conny sagt zu Chris:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,farbe_scharf,1
+151,Haus,y,10,10,9,1,3,3,7,6,6,6,6,6,1,Chris sagt zu Dani:,Ich mag das hohe graue Haus.,Ich mag das graue hohe Haus. ,farbe_scharf,2
+152,Haus,y,9,10,10,1,2,2,6,5,5,5,5,5,1,Alex sagt zu Maxi:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,farbe_scharf,3
+153,Haus,y,10,9,10,1,1,3,7,5,5,5,5,5,1,Conny sagt zu Chris:,Ich mag das hohe graue Haus. ,Ich mag das graue hohe Haus. ,farbe_scharf,1
+154,Haus,y,10,10,10,1,3,1,8,6,6,6,6,6,1,Conny sagt zu Dani:,Ich mag das hohe schwarze Haus.,Ich mag das schwarze hohe Haus. ,farbe_scharf,2
+155,Haus,y,9,10,10,2,2,1,6,8,8,8,8,8,1,Chris sagt zu Alex:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,farbe_scharf,3
+156,Haus,y,9,10,9,3,3,3,6,5,5,5,5,5,1,Conny sagt zu Chris:,Ich mag das hohe blaue Haus.,Ich mag das blaue hohe Haus.,farbe_scharf,4
+157,Linie,x,9,10,10,2,2,2,6,8,8,8,8,8,1,Conny sagt zu Toni:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,farbe_scharf,2
+158,Linie,x,10,9,9,1,3,1,8,6,6,6,6,6,1,Maxi sagt zu Alex:,Ich mag die lange schwarze Linie.,Ich mag die schwarze lange Linie. ,farbe_scharf,3
+159,Linie,x,9,10,9,2,3,1,7,5,5,5,5,5,1,Toni sagt zu Alex:,Ich mag die lange graue Linie.,Ich mag die graue lange Linie. ,farbe_scharf,4
+160,Linie,x,10,9,9,3,1,2,5,6,6,6,6,6,1,Dani sagt zu Conny:,Ich mag die lange orangene Linie.,Ich mag die orangene lange Linie. ,farbe_scharf,1
+161,Linie,x,9,9,10,2,1,3,6,7,7,7,7,7,1,Alex sagt zu Conny:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,farbe_scharf,3
+162,Linie,x,10,9,10,2,1,1,8,7,7,7,7,7,1,Maxi sagt zu Toni:,Ich mag das lange schwarze Linie.,Ich mag die schwarze lange Linie. ,farbe_scharf,4
+163,Linie,y,9,9,10,1,1,1,6,8,8,8,8,8,1,Conny sagt zu Toni:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,farbe_scharf,1
+164,Linie,y,9,9,9,1,3,2,8,6,6,6,6,6,1,Maxi sagt zu Alex:,Ich mag die lange schwarze Linie.,Ich mag die schwarze lange Linie. ,farbe_scharf,2
+165,Linie,y,9,10,9,1,2,2,7,5,5,5,5,5,1,Toni sagt zu Alex:,Ich mag die lange graue Linie.,Ich mag die graue lange Linie. ,farbe_scharf,4
+166,Linie,y,9,10,9,2,3,1,5,8,8,8,8,8,1,Dani sagt zu Conny:,Ich mag die lange orangene Linie.,Ich mag die orangene lange Linie. ,farbe_scharf,1
+167,Linie,y,10,10,9,1,3,3,6,7,7,7,7,7,1,Alex sagt zu Conny:,Ich mag die lange blaue Linie.,Ich mag die blaue lange Linie. ,farbe_scharf,2
+168,Linie,y,10,9,10,2,1,1,8,7,7,7,7,7,1,Maxi sagt zu Toni:,Ich mag das lange schwarze Linie.,Ich mag die schwarze lange Linie. ,farbe_scharf,3
+169,Ball,x,10,10,9,2,3,1,6,5,5,5,5,5,1,Chris sagt zu Dani: ,Ich mag den neuen blauen Ball. ,Ich mag den blauen neuen Ball. ,ueb,100
+170,Linie,x,9,6,4,5,2,1,7,8,8,8,8,8,1,Maxi sagt zu Chris:,Ich mag die graue Linie.,Ich mag die dicke Linie. ,ueb,100
+171,Haus,y,10,9,2,3,10,1,8,5,8,8,5,5,1,Toni sagt zu Conny: ,Ich mag das hohe schwarze Haus.,Ich mag das hohe Haus. ,ueb,100
