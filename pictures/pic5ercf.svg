@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240pt" height="300pt" viewBox="0 0 1240 300" version="1.1">
+<g id="surface191">
+<rect x="0" y="0" width="1240" height="300" style="fill:rgb(90%,90%,90%);fill-opacity:1;stroke:none;"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(90%,50%,50%);fill-opacity:0.5;" d="M 240 270 L 430 270 L 430 30 L 240 30 Z M 240 270 "/>
+<path style="fill-rule:nonzero;fill:rgb(65%,16%,16%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 150 170 C 150 125 75 125 75 170 C 75 215 150 222.5 150 260 C 150 222.5 225 215 225 170 C 225 125 150 125 150 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(55%,51%,53%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 340 170 C 340 125 265 125 265 170 C 265 215 340 222.5 340 260 C 340 222.5 415 215 415 170 C 415 125 340 125 340 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(65%,16%,16%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 480 140 L 600 140 L 600 260 L 480 260 Z M 480 140 "/>
+<path style="fill-rule:nonzero;fill:rgb(65%,16%,16%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 720 170 C 720 129.5 652.5 129.5 652.5 170 C 652.5 210.5 720 217.25 720 251 C 720 217.25 787.5 210.5 787.5 170 C 787.5 129.5 720 129.5 720 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(65%,16%,16%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 910 170 C 910 129.5 842.5 129.5 842.5 170 C 842.5 210.5 910 217.25 910 251 C 910 217.25 977.5 210.5 977.5 170 C 977.5 129.5 910 129.5 910 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(65%,16%,16%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 1100 170 C 1100 125 1025 125 1025 170 C 1025 215 1100 222.5 1100 260 C 1100 222.5 1175 215 1175 170 C 1175 125 1100 125 1100 170 "/>
+</g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240pt" height="300pt" viewBox="0 0 1240 300" version="1.1">
+<g id="surface286">
+<rect x="0" y="0" width="1240" height="300" style="fill:rgb(90%,90%,90%);fill-opacity:1;stroke:none;"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(90%,50%,50%);fill-opacity:0.5;" d="M 430 270 L 620 270 L 620 30 L 430 30 Z M 430 270 "/>
+<path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 215 170 C 215 208.660156 183.660156 240 145 240 C 106.339844 240 75 208.660156 75 170 C 75 131.339844 106.339844 100 145 100 C 183.660156 100 215 131.339844 215 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 250 170 L 305.625 170 L 328.125 117.097656 L 350.625 170 L 406.246094 170 L 361.246094 202.695312 L 376.40625 261.839844 L 328.125 229.144531 L 279.839844 261.839844 L 302.902344 202.695312 L 250 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(33%,80%,11%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 595 170 C 595 208.660156 563.660156 240 525 240 C 486.339844 240 455 208.660156 455 170 C 455 131.339844 486.339844 100 525 100 C 563.660156 100 595 131.339844 595 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 720 170 C 720 125 645 125 645 170 C 645 215 720 222.5 720 260 C 720 222.5 795 215 795 170 C 795 125 720 125 720 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 936.5 170 C 936.5 187.398438 922.398438 201.5 905 201.5 C 887.601562 201.5 873.5 187.398438 873.5 170 C 873.5 152.601562 887.601562 138.5 905 138.5 C 922.398438 138.5 936.5 152.601562 936.5 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 1100 170 C 1100 129.5 1032.5 129.5 1032.5 170 C 1032.5 210.5 1100 217.25 1100 251 C 1100 217.25 1167.5 210.5 1167.5 170 C 1167.5 129.5 1100 129.5 1100 170 "/>
+</g>
+</svg>

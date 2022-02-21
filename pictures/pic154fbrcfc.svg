@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240pt" height="300pt" viewBox="0 0 1240 300" version="1.1">
+<g id="surface671">
+<rect x="0" y="0" width="1240" height="300" style="fill:rgb(90%,90%,90%);fill-opacity:1;stroke:none;"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(90%,50%,50%);fill-opacity:0.5;" d="M 50 270 L 240 270 L 240 30 L 50 30 Z M 50 270 "/>
+<path style="fill-rule:nonzero;fill:rgb(65%,16%,16%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 150 170 C 150 125 75 125 75 170 C 75 215 150 222.5 150 260 C 150 222.5 225 215 225 170 C 225 125 150 125 150 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(65%,16%,16%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 265 210 L 287.5 165 L 310 210 L 265 210 "/>
+<path style="fill-rule:nonzero;fill:rgb(90%,65%,0%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 455 210 L 488.75 142.5 L 522.5 210 L 455 210 "/>
+<path style="fill-rule:nonzero;fill:rgb(65%,16%,16%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 645 210 L 656.25 187.5 L 667.5 210 L 645 210 "/>
+<path style="fill-rule:nonzero;fill:rgb(90%,65%,0%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 910 170 C 910 156.5 887.5 156.5 887.5 170 C 887.5 183.5 910 185.75 910 197 C 910 185.75 932.5 183.5 932.5 170 C 932.5 156.5 910 156.5 910 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(90%,65%,0%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 1100 170 C 1100 129.5 1032.5 129.5 1032.5 170 C 1032.5 210.5 1100 217.25 1100 251 C 1100 217.25 1167.5 210.5 1167.5 170 C 1167.5 129.5 1100 129.5 1100 170 "/>
+</g>
+</svg>

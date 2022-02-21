@@ -1,2 +1,148 @@
-﻿list ,condition,context,combination,size_A,size_B,size_C,size_D,size_E,size_F,color_A,color_B,color_C,color_D,color_E,color_F,form_A,form_B,form_C,form_D,form_E,form_F,noun,sentence_1,sentence_2
-1,ercf,er,cf,NA,NA,NA,NA,NA,NA,grey,orange,orange,orange,orange,orange,triangle,triangle,triangle,triangle,triangle,diamond,Kühlschrankmagneten,Ich nehme den blauen dreieckigen Kühlschrankmagnet.,Ich nehme den  dreieckigen blauen Kühlschrankmagnet.
+list ,condition,context,combination,size_A,size_B,size_C,size_D,size_E,size_F,color_A,color_B,color_C,color_D,color_E,color_F,form_A,form_B,form_C,form_D,form_E,form_F,noun,sentence_1,sentence_2,
+1,erdc,er,dc,10,3,2,3,2,2,blue,blue,blue,blue,blue,orange,NA,NA,NA,NA,NA,NA,Karte,Ich nehme die große blaue Karte.,Ich nehme die blaue große Karte.,
+1,erdf,er,df,10,2,1,2,3,3,NA,NA,NA,NA,NA,NA,diamond,diamond,diamond,diamond,diamond,triangle,Scherenschnitt,Ich nehme den großen diamantförmigen Scherenschnitt.,Ich nehme den diamantförmigen großen  Scherenschnitt.,
+1,ercf,er,cf,NA,NA,NA,NA,NA,NA,blue,orange,orange,orange,orange,orange,triangle,triangle,triangle,triangle,triangle,diamond,Steckwürfel,Ich nehme den blauen dreieckigen Steckwürfel.,Ich nehme den  dreieckigen blauen Steckwürfel.,
+1,zrdc,zr,dc,9,9,10,9,9,3,orange,blue,blue,blue,blue,blue,NA,NA,NA,NA,NA,NA,Flagge,Ich nehme die große orange Flagge.,Ich nehme die orange große Flagge.,
+1,zrdf,zr,df,9,10,9,10,9,1,NA,NA,NA,NA,NA,NA,triangle,diamond,diamond,diamond,diamond,diamond,Fliesen,Ich nehme die große dreieckige Karte.,Ich nehme die dreieckige große Karte.,
+1,zrcf,zr,cf,NA,NA,NA,NA,NA,NA,blue,blue,blue,blue,blue,orange,diamond,triangle,triangle,triangle,triangle,triangle,Klebezettel,Ich nehme das blaue diamantförmige Klebezettel.,Ich nehme das diamantförmige blaue Klebezettel.,
+1,brdc,br,dc,9,10,1,2,9,1,blue,orange,blue,blue,orange,orange,NA,NA,NA,NA,NA,NA,Karton,Ich nehme den großen blauen Karton.,Ich nehme das blauen großen Karton.,
+1,brdf,br,df,10,9,3,2,9,1,NA,NA,NA,NA,NA,NA,triangle,diamond,triangle,triangle,diamond,diamond,Puzzleteil,Ich nehme das große dreieckige Puzzelteil.,Ich nehme das dreieckige große Puzzelteil.,
+1,brcf,br,cf,NA,NA,NA,NA,NA,NA,orange,orange,blue,blue,orange,blue,diamond,triangle,diamond,diamond,triangle,triangle,Papier,Ich nehme das orange diamantförmige Papier.,Ich nehme das diamantförmige orange Papier.,
+2,erdc,er,dc,9,3,1,2,1,1,blue,blue,blue,blue,blue,orange,NA,NA,NA,NA,NA,NA,Scherenschnitt,Ich nehme den großen blauen Scherenschnitt.,Ich nehme den blauen großen Scherenschnitt.,
+2,erdf,er,df,10,3,1,1,3,2,NA,NA,NA,NA,NA,NA,quadrat,quadrat,quadrat,quadrat,quadrat,circle,Steckwürfel,Ich nehme den großen quadratischen Steckwürfel.,Ich nehme den quadratischen großen Steckwürfel.,
+2,ercf,er,cf,NA,NA,NA,NA,NA,NA,blue,orange,orange,orange,orange,orange,circle,circle,circle,circle,circle,quadrat,Flagge,Ich nehme die blauen runde Flagge.,Ich nehme die runde blaue Flagge.,
+2,zrdc,zr,dc,10,10,9,10,9,1,orange,blue,blue,blue,blue,blue,NA,NA,NA,NA,NA,NA,Fliesen,Ich nehme das große orange Fliesen.,Ich nehme das orange große Fliesen.,
+2,zrdf,zr,df,9,9,9,10,10,3,NA,NA,NA,NA,NA,NA,circle,quadrat,quadrat,quadrat,quadrat,quadrat,Klebezettel,Ich nehme das große runde Klebezettel.,Ich nehme das runde große Klebezettel.,
+2,zrcf,zr,cf,NA,NA,NA,NA,NA,NA,blue,blue,blue,blue,blue,orange,quadrat,circle,circle,circle,circle,circle,Karton,Ich nehme den blauen quadratischen Karton.,Ich nehme den quadratischen blauen Karton.,
+2,brdc,br,dc,10,9,1,1,9,2,blue,orange,blue,blue,orange,orange,NA,NA,NA,NA,NA,NA,Puzzleteil,Ich nehme das große blaue Puzzleteil.,Ich nehme das blaue große Puzzleteil.,
+2,brdf,br,df,9,9,3,2,10,2,NA,NA,NA,NA,NA,NA,circle,quadrat,circle,circle,quadrat,quadrat,Papier,Ich nehme das große runde Papier.,Ich nehme das runde große Papier.,
+2,brcf,br,cf,NA,NA,NA,NA,NA,NA,orange,orange,blue,blue,orange,blue,quadrat,circle,quadrat,quadrat,circle,circle,Karte,Ich nehme die orange quadratische Karte.,Ich nehme die quadratische orange Karte.,
+3,erdc,er,dc,10,1,3,2,2,1,blue,blue,blue,blue,blue,orange,NA,NA,NA,NA,NA,NA,Steckwürfel,Ich nehme den großen blauen Steckwürfel.,Ich nehme den blauen großen Steckwürfel.,
+3,erdf,er,df,10,1,3,3,2,2,NA,NA,NA,NA,NA,NA,star,star,star,star,star,heart,Flagge,Ich nehme die große sternförmige Flagge.,Ich nehme die sternförmige große Flagge.,
+3,ercf,er,cf,NA,NA,NA,NA,NA,NA,blue,orange,orange,orange,orange,orange,heart,heart,heart,heart,heart,star,Fliesen,Ich nehme das blaue herzförmige Fliesen.,Ich nehme das herzförmige blaue Fliesen.,
+3,zrdc,zr,dc,10,9,9,10,9,1,orange,blue,blue,blue,blue,blue,NA,NA,NA,NA,NA,NA,Klebezettel,Ich nehme das große orange Klebezettel.,Ich nehme das orange große Klebezettel.,
+3,zrdf,zr,df,10,9,9,9,9,2,NA,NA,NA,NA,NA,NA,heart,star,star,star,star,star,Karton,Ich nehme den großen herzförmigen Karton.,Ich nehme den herzförmigen großen Karton.,
+3,zrcf,zr,cf,NA,NA,NA,NA,NA,NA,blue,blue,blue,blue,blue,orange,star,heart,heart,heart,heart,heart,Puzzleteil,Ich nehme das blaue sternförmige Puzzleteil.,Ich nehme das sternförmige blaue Puzzleteil.,
+3,brdc,br,dc,9,10,2,3,10,3,blue,orange,blue,blue,orange,orange,NA,NA,NA,NA,NA,NA,Papier,Ich nehme das große blaue Papier.,Ich nehme das blaue große Papier.,
+3,brdf,br,df,9,9,1,3,9,1,NA,NA,NA,NA,NA,NA,heart,star,heart,heart,star,diamond,Karte,Ich nehme die orange sternförmige Karte.,Ich nehme die sternförmige orange Karte.,
+3,brcf,br,cf,NA,NA,NA,NA,NA,NA,orange,orange,blue,blue,orange,blue,star,heart,star,star,heart,triangle,Scherenschnitt,Ich nehme den orangen sternförmigen Scherenschnitt.,Ich nehme den sternförmigen orangen Scherenschnitt.,
+4,erdc,er,dc,10,1,2,2,3,3,grey,grey,grey,grey,grey,brown,NA,NA,NA,NA,NA,NA,Flagge,Ich nehme die große graue Flagge.,Ich nehme die graue große Flagge.,
+4,erdf,er,df,9,1,3,2,1,3,NA,NA,NA,NA,NA,NA,diamond,diamond,diamond,diamond,diamond,star,Fliesen,Ich nehme das große diamantförmige Fliesen.,Ich nehme das diamantförmige große Fliesen.,
+4,ercf,er,cf,NA,NA,NA,NA,NA,NA,grey,brown,brown,brown,brown,brown,star,star,star,star,star,diamond,Klebezettel,Ich nehme das graue sternförmige Klebezettel.,Ich nehme das sternförmige graue Klebezettel.,
+4,zrdc,zr,dc,9,9,9,9,10,2,brown,grey,grey,grey,grey,grey,NA,NA,NA,NA,NA,NA,Karton,Ich nehme den großen braunen Karton.,Ich nehme den braunen großen Karton.,
+4,zrdf,zr,df,9,9,10,10,10,1,NA,NA,NA,NA,NA,NA,star,diamond,diamond,diamond,diamond,diamond,Puzzleteil,Ich nehme das große sternförmige Puzzelteil.,Ich nehme das sternförmige große Puzzelteil.,
+4,zrcf,zr,cf,NA,NA,NA,NA,NA,NA,grey,grey,grey,grey,grey,brown,diamond,star,star,star,star,star,Papier,Ich nehme das graue diamantförmige Papier.,Ich nehme das diamantförmige graue Papier.,
+4,brdc,br,dc,10,10,1,1,9,2,grey,brown,grey,grey,brown,brown,NA,NA,NA,NA,NA,NA,Karte,Ich nehme die große graue Karte.,Ich nehme die graue große Karte.,
+4,brdf,br,df,9,9,3,3,10,3,NA,NA,NA,NA,NA,NA,star,diamond,star,star,diamond,diamond,Scherenschnitt,Ich nehme den großen sternförmigen Scherenschnitt.,Ich nehme den sternförmigen großen Scherenschnitt.,
+4,brcf,br,cf,NA,NA,NA,NA,NA,NA,brown,brown,grey,grey,brown,grey,diamond,star,diamond,diamond,star,star,Steckwürfel,Ich nehme den braunen diamantförmigen Steckwürfel.,Ich nehme den diamantförmigen braunen Steckwürfel.,
+5,erdc,er,dc,10,3,2,2,2,2,grey,grey,grey,grey,grey,brown,NA,NA,NA,NA,NA,NA,Fliesen,Ich nehme das große graue Fliesen.,Ich nehme das graue große Fliesen.,
+5,erdf,er,df,9,2,3,1,2,3,NA,NA,NA,NA,NA,NA,quadrat,quadrat,quadrat,quadrat,quadrat,heart,Klebezettel,Ich nehme das große quadratische Klebezettel.,Ich nehme das quadratische große Klebezettel.,
+5,ercf,er,cf,NA,NA,NA,NA,NA,NA,grey,brown,brown,brown,brown,brown,heart,heart,heart,heart,heart,quadrat,Karton,Ich nehme den grauen herzförmigen Karton.,Ich nehme den herzförmigen grauen Karton.,
+5,zrdc,zr,dc,10,10,10,10,9,1,brown,grey,grey,grey,grey,grey,NA,NA,NA,NA,NA,NA,Puzzleteil,Ich nehme das große braune Puzzleteil.,Ich nehme das braune große Puzzleteil.,
+5,zrdf,zr,df,10,10,9,10,10,2,NA,NA,NA,NA,NA,NA,heart,quadrat,quadrat,quadrat,quadrat,quadrat,Papier,Ich nehme das große herzförmige Papier.,Ich nehme das herzförmige große Papier.,
+5,zrcf,zr,cf,NA,NA,NA,NA,NA,NA,grey,grey,grey,grey,grey,brown,quadrat,heart,heart,heart,heart,heart,Karte,Ich nehme die graue quadratische Karte.,Ich nehme die quadratische graue Karte.,
+5,brdc,br,dc,9,9,2,1,9,2,grey,brown,grey,grey,brown,brown,NA,NA,NA,NA,NA,NA,Scherenschnitt,Ich nehme den großen grauen Scherenschnitt.,Ich nehme den grauen großen Scherenschnitt.,
+5,brdf,br,df,10,10,2,2,9,1,NA,NA,NA,NA,NA,NA,heart,quadrat,heart,heart,quadrat,quadrat,Steckwürfel,Ich nehme den großen herzförmigen Steckwürfel.,Ich nehme den herzförmigen großen Steckwürfel.,
+5,brcf,br,cf,NA,NA,NA,NA,NA,NA,brown,brown,grey,grey,brown,grey,quadrat,heart,quadrat,quadrat,heart,heart,Flagge,Ich nehme die braune quadratische Flagge.,Ich nehme die quadratische braune Flagge.,
+6,erdc,er,dc,10,3,1,2,3,1,grey,grey,grey,grey,grey,brown,NA,NA,NA,NA,NA,NA,Klebezettel,Ich nehme das große graue Klebezettel.,Ich nehme das graue große Klebezettel.,
+6,erdf,er,df,10,1,3,2,3,1,NA,NA,NA,NA,NA,NA,star,star,star,star,star,circle,Karton,Ich nehme den großen sternförmigen Karton.,Ich nehme den sternförmigen großen Karton.,
+6,ercf,er,cf,NA,NA,NA,NA,NA,NA,grey,brown,brown,brown,brown,brown,circle,circle,circle,circle,circle,star,Puzzleteil,Ich nehme das graue runde Puzzleteil.,Ich nehme das runde graue Puzzleteil.,
+6,zrdc,zr,dc,9,9,9,9,9,2,brown,grey,grey,grey,grey,grey,NA,NA,NA,NA,NA,NA,Papier,Ich nehme das große braune Papier.,Ich nehme das braune große Papier.,
+6,zrdf,zr,df,10,9,9,10,10,1,NA,NA,NA,NA,NA,NA,circle,star,star,star,star,star,Karte,Ich nehme die große runde Karte.,Ich nehme die große runde Karte.,
+6,zrcf,zr,cf,NA,NA,NA,NA,NA,NA,grey,grey,grey,grey,grey,brown,star,circle,circle,circle,circle,circle,Scherenschnitt,Ich nehme den grauen sternförmigen Scherenschnitt.,Ich nehme den grauen sternförmigen Scherenschnitt.,
+6,brdc,br,dc,10,10,1,1,9,3,grey,brown,grey,grey,brown,brown,NA,NA,NA,NA,NA,NA,Steckwürfel,Ich nehme den großen grauen Steckwürfel.,Ich nehme den grauen großen Steckwürfel.,
+6,brdf,br,df,10,9,3,2,10,1,NA,NA,NA,NA,NA,NA,circle,star,circle,circle,star,star,Flagge,Ich nehme die große runde Flagge.,Ich nehme die runde große Flagge.,
+6,brcf,br,cf,NA,NA,NA,NA,NA,NA,brown,brown,grey,grey,brown,grey,star,circle,star,star,circle,circle,Fliesen,Ich nehme das braune sternförmige Fliesen.,Ich nehme das sternförmige braune Fliesen.,
+7,erdc,er,dc,10,2,3,2,2,3,black,black,black,black,black,green,NA,NA,NA,NA,NA,NA,Karton,Ich nehme den großen schwarzen Karton.,Ich nehme den schwarzen großen Karton.,
+7,erdf,er,df,9,1,2,3,1,3,NA,NA,NA,NA,NA,NA,quadrat,quadrat,quadrat,quadrat,quadrat,triangle,Puzzleteil,Ich nehme das große quadratische Puzzleteil.,Ich nehme das quadratische große Puzzleteil.,
+7,ercf,er,cf,NA,NA,NA,NA,NA,NA,black,green,green,green,green,green,triangle,triangle,triangle,triangle,triangle,quadrat,Papier,Ich nehme das schwarze dreieckige Papier.,Ich nehme das dreieckige schwarze Papier.,
+7,zrdc,zr,dc,10,10,9,10,9,3,green,black,black,black,black,black,NA,NA,NA,NA,NA,NA,Karte,Ich nehme die große grüne Karte.,Ich nehme die grüne große Karte.,
+7,zrdf,zr,df,10,9,9,10,9,3,NA,NA,NA,NA,NA,NA,triangle,quadrat,quadrat,quadrat,quadrat,quadrat,Scherenschnitt,Ich nehme den großen dreieckigen Scherenschnitt.,Ich nehme den dreieckigen großen Scherenschnitt.,
+7,zrcf,zr,cf,NA,NA,NA,NA,NA,NA,black,black,black,black,black,green,quadrat,triangle,triangle,triangle,triangle,triangle,Steckwürfel,Ich nehme den schwarzen quadratischen Steckwürfel.,Ich nehme den quadratischen schwarzen Steckwürfel.,
+7,brdc,br,dc,9,10,1,1,9,3,black,green,black,black,green,green,NA,NA,NA,NA,NA,NA,Flagge,Ich nehme die große schwarze Flagge.,Ich nehme die schwarze große Flagge.,
+7,brdf,br,df,9,9,2,2,9,2,NA,NA,NA,NA,NA,NA,triangle,quadrat,triangle,triangle,quadrat,quadrat,Fliesen,Ich nehme das große dreieckige Fliesen.,Ich nehme das dreieckige große Fliesen.,
+7,brcf,br,cf,NA,NA,NA,NA,NA,NA,green,green,black,black,green,black,quadrat,triangle,quadrat,quadrat,triangle,triangle,Klebezettel,Ich nehme das grüne quadratische Klebezettel.,Ich nehme das quadratische grüne Klebezettel.,
+8,erdc,er,dc,9,3,1,1,1,2,black,black,black,black,black,green,NA,NA,NA,NA,NA,NA,Puzzleteil,Ich nehme das große schwarze Puzzleteil.,Ich nehme das schwarze große Puzzleteil.,
+8,erdf,er,df,9,3,2,1,3,1,NA,NA,NA,NA,NA,NA,triangle,triangle,triangle,triangle,triangle,circle,Papier,Ich nehme das große dreieckige Papier.,Ich nehme das dreieckige große Papier.,
+8,ercf,er,cf,NA,NA,NA,NA,NA,NA,black,green,green,green,green,green,circle,circle,circle,circle,circle,triangle,Karte,Ich nehme die schwarze runde Karte.,Ich nehme die runde schwarze Karte.,
+8,zrdc,zr,dc,9,10,9,10,9,2,green,black,black,black,black,black,NA,NA,NA,NA,NA,NA,Scherenschnitt,Ich nehme den großen grünen Scherenschnitt.,Ich nehme den grünen großen Scherenschnitt.,
+8,zrdf,zr,df,10,9,9,9,10,1,NA,NA,NA,NA,NA,NA,circle,triangle,triangle,triangle,triangle,triangle,Steckwürfel,Ich nehme den großen runden Steckwürfel.,Ich nehme den runden großen Steckwürfel.,
+8,zrcf,zr,cf,NA,NA,NA,NA,NA,NA,black,black,black,black,black,green,triangle,circle,circle,circle,circle,circle,Flagge,Ich nehme die schwarze dreieckige Flagge.,Ich nehme die dreieckige schwarze Flagge.,
+8,brdc,br,dc,10,9,2,3,10,2,black,green,black,black,green,green,NA,NA,NA,NA,NA,NA,Fliesen,Ich nehme das große schwarze Fliesen.,Ich nehme das schwarze große Fliesen.,
+8,brdf,br,df,10,9,1,1,10,2,NA,NA,NA,NA,NA,NA,triangle,circle,triangle,triangle,circle,circle,Klebezettel,Ich nehme das große dreieckige Klebezettel.,Ich nehme das dreieckige große Klebezettel.,
+8,brcf,br,cf,NA,NA,NA,NA,NA,NA,green,green,black,black,green,black,circle,triangle,circle,circle,triangle,triangle,Karton,Ich nehme den grünen runden Karton.,Ich nehme den runden grünen Karton.,
+9,erdc,er,dc,10,3,3,1,2,1,black,black,black,black,black,green,NA,NA,NA,NA,NA,NA,Papier,Ich nehme das große schwarze Papier.,Ich nehme das schwarze große Papier.,
+9,erdf,er,df,10,2,1,2,3,3,NA,NA,NA,NA,NA,NA,diamond,diamond,diamond,diamond,diamond,heart,Karte,Ich nehme die große diamantförmige Karte.,Ich nehme die diamantförmige große Karte.,
+9,ercf,er,cf,NA,NA,NA,NA,NA,NA,black,green,green,green,green,green,heart,heart,heart,heart,heart,diamond,Scherenschnitt,Ich nehme den schwarzen herzförmigen Scherenschnitt.,Ich nehme den herzförmigen schwarzen Scherenschnitt.,
+9,zrdc,zr,dc,9,9,9,10,9,3,green,black,black,black,black,black,NA,NA,NA,NA,NA,NA,Steckwürfel,Ich nehme den großen grünen Steckwürfel.,Ich nehme den grünen großen Steckwürfel.,
+9,zrdf,zr,df,10,10,9,9,9,1,NA,NA,NA,NA,NA,NA,heart,diamond,diamond,diamond,diamond,diamond,Flagge,Ich nehme die große herzförmige Flagge.,Ich nehme die herzförmige große Flagge.,
+9,zrcf,zr,cf,NA,NA,NA,NA,NA,NA,black,black,black,black,black,green,diamond,heart,heart,heart,heart,heart,Fliesen,Ich nehme das schwarze diamantförmige Fliesen.,Ich nehme das diamantförmige schwarze Fliesen.,
+9,brdc,br,dc,10,9,1,3,9,2,black,green,black,black,green,green,NA,NA,NA,NA,NA,NA,Klebezettel,Ich nehme das große schwarze Klebezettel.,Ich nehme das schwarze große Klebezettel.,
+9,brdf,br,df,10,9,3,2,9,3,NA,NA,NA,NA,NA,NA,diamond,heart,diamond,diamond,heart,heart,Karton,Ich nehme den großen diamantförmigen Karton.,Ich nehme den diamantförmigen großen Karton.,
+9,brcf,br,cf,NA,NA,NA,NA,NA,NA,green,green,black,black,green,black,heart,diamond,heart,heart,diamond,diamond,Puzzleteil,Ich nehme das grüne herzförmige Puzzleteil.,Ich nehme das herzförmige grüne Puzzleteil.,
+101,ferdcd,er,dc,10,3,3,2,2,3,brown,brown,brown,brown,brown,green,NA,NA,NA,NA,NA,NA,Karte,Ich nehme die große braune Karte.,Ich nehme die große Karte.,d
+102,ferdff,er,df,9,2,1,1,2,2,NA,NA,NA,NA,NA,NA,triangle,triangle,triangle,triangle,triangle,heart,Scherenschnitt,Ich nehme den großen herzförmigen Scherenschnitt.,Ich nehme den diamantförmigen Scherenschnitt.,f
+103,fercfc,er,cf,NA,NA,NA,NA,NA,NA,brown,green,green,green,green,green,heart,heart,heart,heart,heart,triangle,Steckwürfel,Ich nehme den braunen dreieckigen Steckwürfel.,Ich nehme den blauen Steckwürfel.,c
+104,fzrdcd,zr,dc,10,10,9,10,9,2,green,brown,brown,brown,brown,brown,NA,NA,NA,NA,NA,NA,Flagge,Ich nehme die große orange Flagge.,Ich nehme die große Flagge.,d
+105,fzrdff,zr,df,10,10,9,10,9,2,NA,NA,NA,NA,NA,NA,heart,triangle,triangle,triangle,triangle,triangle,Fliesen,Ich nehme die große dreieckige Karte.,Ich nehme die dreieckige Karte.,f
+106,fzrcfc,zr,cf,NA,NA,NA,NA,NA,NA,brown,brown,brown,brown,brown,green,triangle,heart,heart,heart,heart,heart,Klebezettel,Ich nehme das braune herzförmige Klebezettel.,Ich nehme das blaue Klebezettel.,c
+107,fbrdcd,br,dc,9,10,3,2,10,1,brown,green,brown,brown,green,green,NA,NA,NA,NA,NA,NA,Karton,Ich nehme den großen braunen Karton.,Ich nehme das großen Karton.,d
+108,fbrdff,br,df,9,9,1,2,10,1,NA,NA,NA,NA,NA,NA,triangle,heart,triangle,triangle,heart,heart,Puzzleteil,Ich nehme das große dreieckige Puzzelteil.,Ich nehme das dreieckige Puzzleteil.,f
+109,fbrcfc,br,cf,NA,NA,NA,NA,NA,NA,green,green,brown,brown,green,brown,heart,triangle,heart,heart,triangle,triangle,Papier,Ich nehme das orange herzförmige Papier.,Ich nehme das orange Papier.,c
+110,ferdcd,er,dc,10,1,2,2,3,1,blue,blue,blue,blue,blue,green,NA,NA,NA,NA,NA,NA,Scherenschnitt,Ich nehme den großen braunen Scherenschnitt.,Ich nehme den großen Scherenschnitt.,d
+111,ferdff,er,df,10,1,3,3,2,1,NA,NA,NA,NA,NA,NA,triangle,triangle,triangle,triangle,triangle,star,Steckwürfel,Ich nehme den großen dreieckigen Karton.,Ich nehme den dreieckigen Karton.,f
+112,fercfc,er,cf,NA,NA,NA,NA,NA,NA,blue,green,green,green,green,green,star,star,star,star,star,triangle,Flagge,Ich nehme die blaue sternförmige Flagge.,Ich nehme die blaue Flagge.,c
+113,fzrdcd,zr,dc,9,9,9,10,9,1,green,blue,blue,blue,blue,blue,NA,NA,NA,NA,NA,NA,Fliesen,Ich nehme das große grüne Fliesen.,Ich nehme das große Fliesen.,d
+114,fzrdff,zr,df,10,10,10,10,10,3,NA,NA,NA,NA,NA,NA,star,triangle,triangle,triangle,triangle,triangle,Klebezettel,Ich nehme das große sternförmige Klebezettel.,Ich nehme das sternförmige Klebezettel.,f
+115,fzrcfc,zr,cf,NA,NA,NA,NA,NA,NA,blue,blue,blue,blue,blue,green,triangle,star,star,star,star,star,Karton,Ich nehme den blauen dreieckigen Karton.,Ich nehme den blauen Karton.,c
+116,fbrdcd,br,dc,9,9,1,2,9,2,blue,green,blue,blue,green,green,NA,NA,NA,NA,NA,NA,Puzzleteil,Ich nehme das große blaue Puzzleteil.,Ich nehme das große Puzzleteil.,d
+117,fbrdff,br,df,9,10,2,2,9,1,NA,NA,NA,NA,NA,NA,triangle,star,triangle,triangle,star,star,Papier,Ich nehme das große dreieckige Papier.,Ich nehme das dreieckige Papier.,f
+118,fbrcfc,br,cf,NA,NA,NA,NA,NA,NA,green,green,blue,blue,green,blue,star,triangle,star,star,triangle,triangle,Karte,Ich nehme die sternförmige grüne Karte.,Ich nehme die grüne Karte.,c
+119,ferdcd,er,dc,10,1,1,1,3,1,orange,orange,orange,orange,orange,green,NA,NA,NA,NA,NA,NA,Steckwürfel,Ich nehme den großen orangen Steckwürfel.,Ich nehme den großen Steckwürfel.,d
+120,ferdff,er,df,10,2,1,3,1,1,NA,NA,NA,NA,NA,NA,diamond,diamond,diamond,diamond,diamond,circle,Flagge,Ich nehme die große diamantförmige Flagge.,Ich nehme die diamantförmige Flagge.,f
+121,fercfc,er,cf,NA,NA,NA,NA,NA,NA,orange,green,green,green,green,green,circle,circle,circle,circle,circle,diamond,Fliesen,Ich nehme das orange runde Fliesen.,Ich nehme das orange Fliesen.,c
+122,fzrdcd,zr,dc,10,10,10,10,10,1,green,orange,orange,orange,orange,orange,NA,NA,NA,NA,NA,NA,Klebezettel,Ich nehme das große grüne Klebezettel. ,Ich nehme das große Klebezettel.,d
+123,fzrdff,zr,df,10,9,9,10,10,2,NA,NA,NA,NA,NA,NA,circle,diamond,diamond,diamond,diamond,diamond,Karton,Ich nehme den großen runden Karton.,Ich nehme den runden Karton.,f
+124,fzrcfc,zr,cf,NA,NA,NA,NA,NA,NA,orange,orange,orange,orange,orange,green,diamond,circle,circle,circle,circle,circle,Puzzleteil,Ich nehme das orange diamantförmige Puzzleteil.,Ich nehme das diamantförmige Puzzleteil.,c
+125,fbrdcd,br,dc,10,10,3,2,9,3,orange,green,orange,orange,green,green,NA,NA,NA,NA,NA,NA,Papier,Ich nehme das große orange Papier.,Ich nehme das große Papier.,d
+126,fbrdff,br,df,9,9,3,2,9,3,NA,NA,NA,NA,NA,NA,diamond,circle,diamond,diamond,circle,circle,Karte,Ich nehme die große diamantförmige Karte. ,Ich nehme die diamantförmige Karte.,f
+127,fbrcfc,br,cf,NA,NA,NA,NA,NA,NA,green,green,orange,orange,green,orange,circle,diamond,circle,circle,diamond,diamond,Scherenschnitt,Ich nehme den grünen runden Scherenschnitt.,Ich nehme den grünen Scherenschnitt.,c
+128,ferdcd,er,dc,10,3,1,1,1,1,grey,grey,grey,grey,grey,green,NA,NA,NA,NA,NA,NA,Flagge,Ich nehme die große graue Flagge. ,Ich nehme die graue Flagge.,d
+129,ferdff,er,df,10,2,3,3,2,2,NA,NA,NA,NA,NA,NA,star,star,star,star,star,quadrat,Fliesen,Ich nehme das große sternförmige Fliesen.,Ich nehme das sternförmige Fliesen.,f
+130,fercfc,er,cf,NA,NA,NA,NA,NA,NA,grey,green,green,green,green,green,quadrat,quadrat,quadrat,quadrat,quadrat,star,Klebezettel,Ich nehme das graue quadratische Klebezettel.,Ich nehme das graue Klebezettel.,c
+131,fzrdcd,zr,dc,10,10,9,10,10,2,green,grey,grey,grey,grey,grey,NA,NA,NA,NA,NA,NA,Karton,Ich nehme den großen grünen Karton.,Ich nehme den großen Karton.,d
+132,fzrdff,zr,df,10,10,10,10,10,3,NA,NA,NA,NA,NA,NA,quadrat,star,star,star,star,star,Puzzleteil,Ich nehme das große quadratische Puzzleteil.,Ich nehme das quadratische Puzzleteil.,f
+133,fzrcfc,zr,cf,NA,NA,NA,NA,NA,NA,grey,grey,grey,grey,grey,green,star,quadrat,quadrat,quadrat,quadrat,quadrat,Papier,Ich nehme das graue sternförmige Papier.,Ich nehme das graue Papier.,c
+134,fbrdcd,br,dc,10,9,1,2,9,1,grey,green,grey,grey,green,green,NA,NA,NA,NA,NA,NA,Karte,Ich nehme die große graue Karte. ,Ich nehme die große Karte.,d
+135,fbrdff,br,df,10,10,3,2,10,3,NA,NA,NA,NA,NA,NA,quadrat,star,quadrat,quadrat,star,star,Scherenschnitt,Ich nehme den großen quadratischen Scherenschnitt.,Ich nehme den quadratischen Scherenschnitt.,f
+136,fbrcfc,br,cf,NA,NA,NA,NA,NA,NA,green,green,grey,grey,green,grey,star,quadrat,star,star,quadrat,quadrat,Steckwürfel,Ich nehme den grünen sternförmigen Steckwürfel.,Ich nehme den grünen Steckwürfel.,c
+137,ferdcd,er,dc,10,3,3,2,1,3,orange,orange,orange,orange,orange,grey,NA,NA,NA,NA,NA,NA,Fliesen,Ich nehme das große orange Fliesen.,Ich nehme das große Fliesen.,d
+138,ferdff,er,df,9,2,3,3,1,2,NA,NA,NA,NA,NA,NA,diamond,diamond,diamond,diamond,diamond,quadrat,Klebezettel,Ich nehme das große diamantförmige Klebezettel.,Ich nehme das diamantförmige Klebezettel.,f
+139,fercfc,er,cf,NA,NA,NA,NA,NA,NA,orange,grey,grey,grey,grey,grey,quadrat,quadrat,quadrat,quadrat,quadrat,diamond,Karton,Ich nehme den orangen quadratischen Karton.,Ich nehme den orangen Karton.,c
+140,fzrdcd,zr,dc,9,9,9,10,10,3,grey,orange,orange,orange,orange,orange,NA,NA,NA,NA,NA,NA,Puzzleteil,Ich nehme das große graue Puzzleteil.,Ich nehme das große Puzzleteil.,d
+141,fzrdff,zr,df,9,9,9,10,10,2,NA,NA,NA,NA,NA,NA,quadrat,diamond,diamond,diamond,diamond,diamond,Papier,Ich nehme das große quadratische Papier.,Ich nehme das quadratische Papier.,f
+142,fzrcfc,zr,cf,NA,NA,NA,NA,NA,NA,orange,orange,orange,orange,orange,grey,diamond,quadrat,quadrat,quadrat,quadrat,quadrat,Karte,Ich nehme die orange diamantförmige Karte.,Ich nehme die orange Karte.,c
+143,fbrdcd,br,dc,10,9,3,3,9,2,orange,grey,orange,orange,grey,grey,NA,NA,NA,NA,NA,NA,Scherenschnitt,Ich nehme den großen orangen Scherenschnitt.,Ich nehme den großen Scherenschnitt.,d
+144,fbrdff,br,df,9,9,3,1,10,1,NA,NA,NA,NA,NA,NA,quadrat,diamond,quadrat,quadrat,diamond,diamond,Steckwürfel,Ich nehme den großen quadratischen Steckwürfel.,Ich nehme den quadratischen Steckwürfel.,f
+145,fbrcfc,br,cf,NA,NA,NA,NA,NA,NA,grey,grey,orange,orange,grey,orange,diamond,quadrat,diamond,diamond,quadrat,quadrat,Flagge,Ich nehme die graue diamantförmige Flagge. ,Ich nehme die graue Flagge.,c
+146,ferdcd,er,dc,9,2,3,2,3,2,orange,orange,orange,orange,orange,brown,NA,NA,NA,NA,NA,NA,Klebezettel,Ich nehme das große orange Klebezettel.,Ich nehme das große Klebezettel.,d
+147,ferdff,er,df,10,1,3,1,3,1,NA,NA,NA,NA,NA,NA,triangle,triangle,triangle,triangle,triangle,heart,Karton,Ich nehme den großen dreieckigen Karton.,Ich nehme den dreieckigen Karton.,f
+148,fercfc,er,cf,NA,NA,NA,NA,NA,NA,orange,brown,brown,brown,brown,brown,heart,heart,heart,heart,heart,triangle,Puzzleteil,Ich nehme das orange herzförmige Puzzleteil.,Ich nehme das orange Puzzleteil.,c
+149,fzrdcd,zr,dc,9,9,10,9,10,3,brown,orange,orange,orange,orange,orange,NA,NA,NA,NA,NA,NA,Papier,Ich nehme das große braune Papier.,Ich nehme das große Papier.,d
+150,fzrdff,zr,df,10,9,10,9,9,3,NA,NA,NA,NA,NA,NA,heart,triangle,triangle,triangle,triangle,triangle,Karte,Ich nehme die große herzförmige Karte.,Ich nehme die herzförmige Karte.,f
+151,fzrcfc,zr,cf,NA,NA,NA,NA,NA,NA,orange,orange,orange,orange,orange,brown,triangle,heart,heart,heart,heart,heart,Scherenschnitt,Ich nehme den orangen dreieckigen Scherenschnitt.,Ich nehme den orangen Scherenschnitt.,c
+152,fbrdcd,br,dc,10,10,3,3,10,1,orange,brown,orange,orange,brown,brown,NA,NA,NA,NA,NA,NA,Steckwürfel,Ich nehme den großen orangen Steckwürfel.,Ich nehme den großen Steckwürfel.,d
+153,fbrdff,br,df,9,9,2,1,9,1,NA,NA,NA,NA,NA,NA,triangle,heart,triangle,triangle,heart,heart,Flagge,Ich nehme die große dreieckige Flagge.,Ich nehme die dreieckige Flagge.,f
+154,fbrcfc,br,cf,NA,NA,NA,NA,NA,NA,brown,brown,orange,orange,brown,orange,heart,triangle,heart,heart,triangle,triangle,Fliesen,Ich nehme das braune herzförmige Fliesen.,Ich nehme das braune Fliesen.,c
+155,ferdcd,er,dc,10,2,2,2,2,3,orange,orange,orange,orange,orange,black,NA,NA,NA,NA,NA,NA,Karton,Ich nehme den großen orangen Karton.,Ich nehme den großen Karton.,d
+156,ferdff,er,df,10,3,1,1,3,1,NA,NA,NA,NA,NA,NA,diamond,diamond,diamond,diamond,diamond,circle,Puzzleteil,Ich nehme das große diamantförmige Puzzleteil.,Ich nehme das diamantförmige Puzzleteil.,f
+157,fercfc,er,cf,NA,NA,NA,NA,NA,NA,orange,black,black,black,black,black,circle,circle,circle,circle,circle,diamond,Papier,Ich nehme das orange runde Papier.,Ich nehme das orange Papier.,c
+158,fzrdcd,zr,dc,10,10,10,10,9,1,black,orange,orange,orange,orange,orange,NA,NA,NA,NA,NA,NA,Karte,Ich nehme die große schwarze Karte.,Ich nehme die große Karte.,d
+159,fzrdff,zr,df,9,10,9,9,10,1,NA,NA,NA,NA,NA,NA,circle,diamond,diamond,diamond,diamond,diamond,Scherenschnitt,Ich nehme den großen runden Scherenschnitt.,Ich nehme den runden Scherenschnitt.,f
+160,fzrcfc,zr,cf,NA,NA,NA,NA,NA,NA,orange,orange,orange,orange,orange,black,diamond,circle,circle,circle,circle,circle,Steckwürfel,Ich nehme den orangen diamantförmigen Steckwürfel.,Ich nehme den orangen Steckwürfel.,c
+161,fbrdcd,br,dc,10,10,1,3,10,1,orange,black,orange,orange,black,black,NA,NA,NA,NA,NA,NA,Flagge,Ich nehme die große orange Flagge.,Ich nehme die große Flagge.,d
+162,fbrdff,br,df,10,10,3,2,10,3,NA,NA,NA,NA,NA,NA,diamond,circle,diamond,diamond,circle,circle,Fliesen,Ich nehme das große diamantförmige Fliesen.,Ich nehme das diamantförmige Fliesen.,f
+163,fbrcfc,br,cf,NA,NA,NA,NA,NA,NA,black,black,orange,orange,black,orange,circle,diamond,circle,circle,diamond,diamond,Klebezettel,Ich nehme das schwarze runde Klebezettel.,Ich nehme das schwarze Klebezettel.,c
+1001,uerdc,er,dc,10,3,1,1,1,1,blue,blue,blue,blue,blue,orange,NA,NA,NA,NA,NA,NA,Karte,Ich nehme die große blaue Karte.,Ich nehme die blaue große Karte.,
+1002,uzrdf,zr,df,9,10,9,9,9,2,NA,NA,NA,NA,NA,NA,diamond,heart,heart,heart,heart,heart,Papier,Ich nehme das große diamantförmige Papier.,Ich nehme das diamantförmige große Papier.,
+1003,ubrcf,br,cf,NA,NA,NA,NA,NA,NA,green,orange,green,green,orange,orange,triangle,star,star,triangle,triangle,star,Steckwürfel,Ich nehme den grünen dreieckigen Steckwürfel.,Ich nehme den  dreieckigen grünen Steckwürfel.,

@@ -1,4 +1,0 @@
-Item (prelim.),Shape,Pattern,Size_A,Size_B,Size_C,Size_D,Size_E,Size_F,Colour_A,Colour_B,Colour_C,Colour_D,Colour_E,Colour_F,Marked,Context,sentence_1,sentence_2,Condition,List (prelim.)
-,Ball,x,10,10,9,2,3,1,6,5,5,5,5,5,1,Chris sagt zu Dani: ,Ich mag den neuen blauen Ball. ,Ich mag den blauen neuen Ball. ,ueb,
-,Linie,x,9,6,4,5,2,1,7,8,8,8,8,8,2,Maxi sagt zu Chris:,Ich mag die graue Linie.,Ich mag die dicke Linie. ,ueb,
-,Haus,y,10,9,2,3,10,1,8,5,8,8,5,5,3,Toni sagt zu Conny: ,Ich mag das hohe schwarze Haus.,Ich mag das hohe Haus. ,ueb,
