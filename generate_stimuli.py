@@ -2,7 +2,7 @@ import json
 import csv
 
 #read csv file as list of lists of strings
-with open('Tabelle_neuesFormat_mitKontext_mitFillern_final2.csv', 'r', encoding='utf-8') as f:
+with open('stimuli_transparent.csv', 'r', encoding='utf-8') as f:
     reader = csv.reader(f)
 
     #skip header
@@ -20,11 +20,11 @@ def relevant_line(line):
 def create_dict(line):
     line_string = ";".join(str(x) for x in line)
     line_cells = line_string.split(";")    
-    return {"condition": line_cells[19],
-            "list": line_cells[20],
-            "context": line_cells[16],			
-            "sentence1": line_cells[17],
-            "sentence2": line_cells[18],
+    return {"condition": line_cells[1],
+            "list": line_cells[26],
+            "context": line_cells[27],			
+            "sentence1": line_cells[23],
+            "sentence2": line_cells[24],
 			"item": line_cells[0]}
 
 

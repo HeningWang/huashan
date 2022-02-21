@@ -45,7 +45,7 @@
 			 ?>;
     </script>-->
 	<script type="text/javascript">
-		var list = 0;
+		var list = 1;
 	</script>	
 
     <!-- experiment file -->
