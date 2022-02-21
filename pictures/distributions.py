@@ -27,6 +27,13 @@ def sample_data(my_mean, my_std, myclip_a, myclip_b, size):
     return r
 
 
+def adjust_size(max_size, size, coefficient):
+    size = max_size * size * coefficient
+    if size >= max_size:
+        size = max_size
+    return size
+
+
 class Shape(object):
 
     def __init__(self, context, x, y, h, w, d, c, p):
@@ -53,8 +60,8 @@ class Shape(object):
             self.context.set_source_rgb(0.55, 0.51, 0.53)
         elif self.color == 'brown':
             self.context.set_source_rgb(0.65, 0.16, 0.16)
-        elif self.color == 'magenta':
-            self.context.set_source_rgb(0.8, 0.06 ,0.8)
+        elif self.color == 'black':
+            self.context.set_source_rgb(0, 0, 0)
         elif self.color == 'green':
             self.context.set_source_rgb(0.33, 0.8, 0.11)
 
@@ -66,16 +73,16 @@ class Heart(Shape):
 
     def draw(self):
         x, y, height, width, degree, color, pattern = self.get_parameters()
-        degree = 1.2
+        degree = 0.15 * degree
         self.set_color()
-        x = x + 40
-        y = y - 75
+        x = x + 50
+        y = y - 80
         xoffset = 50 * degree
         yoffset1 = 30 * degree
         yoffset2 = 35 * degree
-        self.context.move_to(x,y)
+        self.context.move_to(x, y)
         self.context.curve_to(x, y - yoffset1, x - xoffset, y - yoffset1, x - xoffset, y)
-        self.context.curve_to(x - xoffset, y + yoffset1, x, y + yoffset2, x, y + 2*yoffset1)
+        self.context.curve_to(x - xoffset, y + yoffset1, x, y + yoffset2, x, y + 2 * yoffset1)
         self.context.curve_to(x, y + yoffset2, x + xoffset, y + yoffset1, x + xoffset, y)
         self.context.curve_to(x + xoffset, y - yoffset1, x, y - yoffset1, x, y)
         self.context.fill_preserve()
@@ -84,6 +91,7 @@ class Heart(Shape):
         self.context.stroke()
         self.context.save()
 
+
 class Star(Shape):
 
     def __init__(self, context, x, y, h, w, d, c, p):
@@ -91,7 +99,8 @@ class Star(Shape):
 
     def draw(self):
         x, y, height, width, degree, color, pattern = self.get_parameters()
-        degree = 1
+        self.set_color()
+        degree = 0.1 * degree
         bottom = 50 * degree
         diag = bottom / math.cos(math.pi / 5)
         height = diag * math.sin(math.pi / 5)
@@ -108,11 +117,12 @@ class Star(Shape):
             (x + (2 * diag) + bottom - diag * math.cos(math.pi / 5), y + diag * math.sin(math.pi / 5)),
             (x + (2 * diag + bottom) * math.cos(math.pi / 5), y + (2 * diag + bottom) * math.sin(math.pi / 5)),
             (x + diag + bottom / 2, y + (bottom + diag) * math.sin(math.pi / 5)),
-            (x + (((2 * diag) + bottom) - (2 * diag + bottom) * math.cos(math.pi / 5)), y + (2 * diag + bottom) * math.sin(math.pi / 5)),
+            (x + (((2 * diag) + bottom) - (2 * diag + bottom) * math.cos(math.pi / 5)),
+             y + (2 * diag + bottom) * math.sin(math.pi / 5)),
             (x + diag * math.cos(math.pi / 10), y + diag * math.sin(math.pi / 5)),
             (x, y),
         )
-        for i in range(10):
+        for i in range(11):
             self.context.line_to(points[i][0], points[i][1])
         self.context.fill_preserve()
         self.context.set_source_rgba(0, 0, 0, 1)
@@ -120,20 +130,20 @@ class Star(Shape):
         self.context.stroke()
         self.context.save()
 
+
 class Triangle(Shape):
     def __init__(self, context, x, y, h, w, d, c, p):
         Shape.__init__(self, context, x, y, h, w, d, c, p)
 
     def draw(self):
         x, y, height, width, degree, color, pattern = self.get_parameters()
-        if degree == "1":
-            degree = 120
-        elif degree == "0":
-            degree = 80
-        x= x - 25
+        self.set_color()
+        length = adjust_size(150, degree, 0.15)
+        x = x - 25
+        y = y - 40
         self.context.move_to(x, y)
-        self.context.line_to(x + degree / 2, y - degree)
-        self.context.line_to(x + degree, y)
+        self.context.line_to(x + length / 2, y - length)
+        self.context.line_to(x + length, y)
         self.context.line_to(x, y)
         self.context.fill_preserve()
         self.context.set_source_rgba(0, 0, 0, 1)
@@ -148,15 +158,17 @@ class Rectangle(Shape):
 
     def draw(self):
         x, y, height, width, degree, color, pattern = self.get_parameters()
+        self.set_color()
         x = x
-        y = y - 100
-        max_length = 100
-        self.context.rectangle(x, y, max_length, max_length)
+        y = y - 80
+        length = adjust_size(120,degree,0.15)
+        self.context.rectangle(x, y - 30, length, length)
         self.context.fill_preserve()
         self.context.set_source_rgba(0, 0, 0, 1)
         self.context.set_line_width(1)
         self.context.stroke()
         self.context.save()
+
 
 class Diamond(Shape):
     def __init__(self, context, x, y, h, w, d, c, p):
@@ -164,14 +176,14 @@ class Diamond(Shape):
 
     def draw(self):
         x, y, height, width, degree, color, pattern = self.get_parameters()
+        self.set_color()
         x = x + 45
         y = y - 80
-        degree = 0.2
-        std_length = 90 * degree
-        self.context.move_to(x, y-std_length)
-        self.context.line_to(x+std_length, y)
-        self.context.line_to(x, y+std_length)
-        self.context.line_to(x-std_length,y)
+        std_length = adjust_size(80, degree, 0.1)
+        self.context.move_to(x, y - std_length)
+        self.context.line_to(x + std_length, y)
+        self.context.line_to(x, y + std_length)
+        self.context.line_to(x - std_length, y)
         self.context.close_path()
         self.context.fill_preserve()
         self.context.set_source_rgba(0, 0, 0, 1)
@@ -187,9 +199,11 @@ class Circle(Shape):
 
     def draw(self):
         x, y, height, width, degree, color, pattern = self.get_parameters()
-        x = x + 40
-        max_radius = 80
-        self.context.arc(x, y - max_radius, max_radius, 0, 2 * math.pi)
+        self.set_color()
+        x = x
+        y = y - 80
+        radius = adjust_size(70, degree, 0.15)
+        self.context.arc(x, y, radius, 0, 2 * math.pi)
         self.context.fill_preserve()
         self.context.set_source_rgba(0, 0, 0, 1)
         self.context.set_line_width(1)
@@ -197,7 +211,7 @@ class Circle(Shape):
 
 
 # read csv file as list of lists of strings
-with open('../stimuli_table.csv', 'r', encoding='latin-1') as f:
+with open('../stimuli_transparent.csv', 'r', encoding='latin-1') as f:
     reader = csv.reader(f)
     # skip header
     next(reader, None)
@@ -210,15 +224,17 @@ def create_dict(line):
     line_cells = line_string.split(";")
     return {
         "item": line_cells[0],
-		"condition": line_cells[1],
-        "shape": line_cells[2],
-        "size": [line_cells[3], line_cells[4], line_cells[5], line_cells[6]],
-        "colour": [line_cells[7], line_cells[8], line_cells[9], line_cells[10]],
-        "pattern": [line_cells[11], line_cells[12], line_cells[13], line_cells[14]],
+        "condition": line_cells[1],
+        "size": [line_cells[4], line_cells[5], line_cells[6], line_cells[7], line_cells[8], line_cells[9]],
+        "color": [line_cells[10], line_cells[11], line_cells[12], line_cells[13], line_cells[14], line_cells[15]],
+        "shape": [line_cells[16], line_cells[17], line_cells[18], line_cells[19], line_cells[20], line_cells[21]],
         "marked": line_cells[15]
     }
 
 
+shape_dict = ['triangle', 'quadrat', 'circle', 'star', 'diamond', 'heart']
+color_dict = ['green', 'blue', 'orange', 'black', 'grey', 'brown']
+size_dict = [1, 2, 3, 9, 10]
 # create list of dicts for each extracted line
 trial_dicts_list = list(map(create_dict, stimuli_file))
 
@@ -226,27 +242,16 @@ trial_dicts_list = list(map(create_dict, stimuli_file))
 # main function
 def main():
     for t in trial_dicts_list:
-        filename = "pic" + t["item"] +  t["condition"] + ".svg"
-        shape = t["shape"]
-        pattern = t["pattern"]
-        size = t["size"]
-        color = t["colour"]
-        if t["marked"] == "A":
-            marked = 1
-        elif t["marked"] == "B":
-            marked = 2
-        elif t["marked"] == "C":
-            marked = 3
-        elif t["marked"] == "D":
-            marked = 4
-        suffled_objects = numpy.random.permutation([0, 1, 2, 3])
+        filename = "pic" + t["item"] + t["condition"] + ".svg"
+        pattern = 1
+        suffled_objects = numpy.random.permutation([0, 1, 2, 3, 4, 5])
         print(suffled_objects)
-        marked = numpy.where(suffled_objects == marked-1)[0]
+        marked = numpy.where(suffled_objects == 0)[0]
         print(marked)
         offset = 100
         height = 200
         width = 0.45 * height
-        window_width = 4 * (offset + width) + offset
+        window_width = 6 * (offset + width) + offset
         window_height = 1.5 * height
         bottom = 1.25 * height
         horizontal_distance = width + offset
@@ -259,26 +264,42 @@ def main():
         c.rectangle((offset / 2) + horizontal_distance * marked, bottom + 0.1 * height,
                     horizontal_distance, -height * 1.2)
         c.fill()
-        for i in range(0, 4):
-            pattern = t["pattern"][suffled_objects[i]]
-            deg = t["size"][suffled_objects[i]]
-            color = t["colour"][suffled_objects[i]]
-            # std_degree = max([float(x) for x in size]) / coefficient
-            # deg = sample_data(my_mean=mean_degree, my_std=std_degree, myclip_a=1,
-            #                  myclip_b=mean_degree + std_degree, size=1) * coefficient
-            # print("std:" + str(std_degree))
+        for i in range(0, 6):
+            shape = t["shape"][suffled_objects[i]]
+            if t["size"][suffled_objects[i]] != 'NA':
+                deg = int(t["size"][suffled_objects[i]])
+            else:
+                deg = numpy.random.permutation(size_dict)[0]
+            color = t["color"][suffled_objects[i]]
+            if shape == 'NA':
+                shape = numpy.random.permutation(shape_dict)[0]
+            if color == 'NA':
+                color = numpy.random.permutation(color_dict)[0]
+            print(suffled_objects[i])
             print("deg:" + str(deg))
-            if shape == "Dreieck":
+            if shape == "heart":
                 tmp = Heart(c, offset + horizontal_distance * i, bottom, height, width, deg,
-                               color, pattern)
+                            color, pattern)
                 tmp.draw()
-            # if shape == "Dreieck":
-            #     tmp = Dreieck(c, offset + horizontal_distance * i, bottom, height, width, deg, color, pattern)
-            #     tmp.draw()
-            # if shape == "Kreis":
-            #     tmp = Kugel(c, offset + 0.5 * width + horizontal_distance * i, bottom, height, width,
-            #                 deg, color, pattern)
-            #     tmp.draw()
+            if shape == "quadrat":
+                tmp = Rectangle(c, offset + horizontal_distance * i, bottom, height, width, deg,
+                                color, pattern)
+                tmp.draw()
+            if shape == "star":
+                tmp = Star(c, offset + horizontal_distance * i, bottom, height, width, deg,
+                           color, pattern)
+                tmp.draw()
+            if shape == "diamond":
+                tmp = Diamond(c, offset + horizontal_distance * i, bottom, height, width, deg,
+                              color, pattern)
+                tmp.draw()
+            if shape == "triangle":
+                tmp = Triangle(c, offset + horizontal_distance * i, bottom, height, width, deg, color, pattern)
+                tmp.draw()
+            if shape == "circle":
+                tmp = Circle(c, offset + 0.5 * width + horizontal_distance * i, bottom, height, width,
+                             deg, color, pattern)
+                tmp.draw()
 
         s.finish()
 
