@@ -35,7 +35,7 @@
     <script src="js/stimuli.js" charset="UTF-8"></script>
 	
 	<!-- get list from url parameter -->
-	<script type="text/javascript">
+	<!--<script type="text/javascript">
       var list = <?php if(isset($_GET["l"])) {
 				$l = htmlspecialchars($_GET["l"]);
 				} else {
@@ -43,10 +43,10 @@
 				}
 				echo $l;
 			 ?>;
-    </script>
-	<!--<script type="text/javascript">
+    </script>-->
+	<script type="text/javascript">
 		var list = 0;
-	</script>-->	
+	</script>	
 
     <!-- experiment file -->
     <script src="js/experiment.js"></script>
