@@ -75,8 +75,11 @@ class Heart(Shape):
         x, y, height, width, degree, color, pattern = self.get_parameters()
         degree = 0.15 * degree
         self.set_color()
-        x = x + 50
-        y = y - 80
+        x = x + 45
+        if degree >= 1:
+            y = y - 100
+        else:
+            y= y - 80
         xoffset = 50 * degree
         yoffset1 = 30 * degree
         yoffset2 = 35 * degree
@@ -103,11 +106,16 @@ class Star(Shape):
         degree = 0.1 * degree
         bottom = 50 * degree
         diag = bottom / math.cos(math.pi / 5)
-        height = diag * math.sin(math.pi / 5)
-        height_arg = bottom * math.sin(math.pi / 5)
-        width_arg = bottom * math.cos(math.pi / 5)
-        y = y - 80
-        x = x - 40
+        if degree >= 0.7:
+            y = y - 100
+        else:
+            y = y - 80
+        if degree > 0.8:
+            x = x - 40
+        elif degree >= 0.3:
+            x = x - 40 + 20 / degree
+        else:
+            x = x + 45
         points = (
             (x, y),
             (x + diag, y),
@@ -139,12 +147,12 @@ class Triangle(Shape):
         x, y, height, width, degree, color, pattern = self.get_parameters()
         self.set_color()
         length = adjust_size(150, degree, 0.15)
-        x = x - 25
-        y = y - 40
-        self.context.move_to(x, y)
-        self.context.line_to(x + length / 2, y - length)
-        self.context.line_to(x + length, y)
-        self.context.line_to(x, y)
+        x = x + 45
+        y = y - 70
+        self.context.move_to(x, y - (math.sqrt(3) / 3 * length))
+        self.context.line_to(x - length / 2, y + (3 / math.sqrt(3) / 6 * length))
+        self.context.line_to(x + length / 2, y + (3 / math.sqrt(3) / 6 * length))
+        self.context.line_to(x, y - (math.sqrt(3) /3 * length))
         self.context.fill_preserve()
         self.context.set_source_rgba(0, 0, 0, 1)
         self.context.set_line_width(1)
@@ -159,10 +167,13 @@ class Rectangle(Shape):
     def draw(self):
         x, y, height, width, degree, color, pattern = self.get_parameters()
         self.set_color()
-        x = x
-        y = y - 80
         length = adjust_size(120,degree,0.15)
-        self.context.rectangle(x, y - 30, length, length)
+        if degree >= 5:
+            x = x
+        else:
+            x = x - 40
+        y = y - 80
+        self.context.rectangle(x - (length - 105), y - length / 2, length, length)
         self.context.fill_preserve()
         self.context.set_source_rgba(0, 0, 0, 1)
         self.context.set_line_width(1)
@@ -262,8 +273,10 @@ def main():
         c.fill()
         c.set_source_rgba(0.9, 0.5, 0.5, 0.5)
         c.rectangle((offset / 2) + horizontal_distance * marked, bottom + 0.1 * height,
-                    horizontal_distance, -height * 1.2)
-        c.fill()
+                    horizontal_distance, -height * 1)
+        c.set_source_rgb(1, 0, 0)
+        c.set_line_width(5)
+        c.stroke()
         for i in range(0, 6):
             shape = t["shape"][suffled_objects[i]]
             if t["size"][suffled_objects[i]] != 'NA':
