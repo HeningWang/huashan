@@ -59,11 +59,11 @@ class Shape(object):
         elif self.color == 'grey':
             self.context.set_source_rgb(0.55, 0.51, 0.53)
         elif self.color == 'brown':
-            self.context.set_source_rgb(0.65, 0.16, 0.16)
+            self.context.set_source_rgb(0.55, 0.14, 0.14)
         elif self.color == 'black':
             self.context.set_source_rgb(0, 0, 0)
         elif self.color == 'green':
-            self.context.set_source_rgb(0.33, 0.8, 0.11)
+            self.context.set_source_rgb(0.67, 1, 0.18)
 
 
 class Heart(Shape):
