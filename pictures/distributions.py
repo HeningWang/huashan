@@ -245,7 +245,7 @@ def create_dict(line):
 
 shape_dict = ['triangle', 'quadrat', 'circle', 'star', 'diamond', 'heart']
 color_dict = ['green', 'blue', 'orange', 'black', 'grey', 'brown']
-size_dict = [1, 2, 3, 9, 10]
+size_dict = [1, 2, 3, 9, 10]# small: 1, 2, 3; large: 9, 10
 # create list of dicts for each extracted line
 trial_dicts_list = list(map(create_dict, stimuli_file))
 
@@ -277,6 +277,8 @@ def main():
         c.set_source_rgb(1, 0, 0)
         c.set_line_width(5)
         c.stroke()
+		#current_color = ...
+		#current_shape = ...
         for i in range(0, 6):
             shape = t["shape"][suffled_objects[i]]
             if t["size"][suffled_objects[i]] != 'NA':
@@ -285,8 +287,10 @@ def main():
                 deg = numpy.random.permutation(size_dict)[0]
             color = t["color"][suffled_objects[i]]
             if shape == 'NA':
+			    # flip(.9) ? shape = current shape : shape  ... (but: not identical)... current_shape =
                 shape = numpy.random.permutation(shape_dict)[0]
             if color == 'NA':
+			    # flip(.9) ? color = current color : color  ... (but: not identical)... current_color =
                 color = numpy.random.permutation(color_dict)[0]
             print(suffled_objects[i])
             print("deg:" + str(deg))
