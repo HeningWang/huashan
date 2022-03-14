@@ -3,6 +3,7 @@ Created on May 13, 2010
 
 @author: chris
 '''
+import copy
 import json
 import math
 import cairo
@@ -79,7 +80,7 @@ class Heart(Shape):
         if degree >= 1:
             y = y - 100
         else:
-            y= y - 80
+            y = y - 80
         xoffset = 50 * degree
         yoffset1 = 30 * degree
         yoffset2 = 35 * degree
@@ -152,7 +153,7 @@ class Triangle(Shape):
         self.context.move_to(x, y - (math.sqrt(3) / 3 * length))
         self.context.line_to(x - length / 2, y + (3 / math.sqrt(3) / 6 * length))
         self.context.line_to(x + length / 2, y + (3 / math.sqrt(3) / 6 * length))
-        self.context.line_to(x, y - (math.sqrt(3) /3 * length))
+        self.context.line_to(x, y - (math.sqrt(3) / 3 * length))
         self.context.fill_preserve()
         self.context.set_source_rgba(0, 0, 0, 1)
         self.context.set_line_width(1)
@@ -167,7 +168,7 @@ class Rectangle(Shape):
     def draw(self):
         x, y, height, width, degree, color, pattern = self.get_parameters()
         self.set_color()
-        length = adjust_size(120,degree,0.15)
+        length = adjust_size(120, degree, 0.15)
         if degree >= 5:
             x = x
         else:
@@ -222,7 +223,7 @@ class Circle(Shape):
 
 
 # read csv file as list of lists of strings
-with open('../stimuli_transparent.csv', 'r', encoding='latin-1') as f:
+with open('../stimuli_scharf.csv', 'r', encoding='latin-1') as f:
     reader = csv.reader(f)
     # skip header
     next(reader, None)
@@ -234,25 +235,34 @@ def create_dict(line):
     line_string = ";".join(str(x) for x in line)
     line_cells = line_string.split(";")
     return {
-        "item": line_cells[0],
-        "condition": line_cells[1],
-        "size": [line_cells[4], line_cells[5], line_cells[6], line_cells[7], line_cells[8], line_cells[9]],
-        "color": [line_cells[10], line_cells[11], line_cells[12], line_cells[13], line_cells[14], line_cells[15]],
-        "shape": [line_cells[16], line_cells[17], line_cells[18], line_cells[19], line_cells[20], line_cells[21]],
+        "list": line_cells[0],
+        "item": line_cells[2],
+        "condition": line_cells[3],
+        "size": [line_cells[9], line_cells[10], line_cells[11], line_cells[12], line_cells[13], line_cells[14]],
+        "color": [line_cells[15], line_cells[16], line_cells[17], line_cells[18], line_cells[19], line_cells[20]],
+        "shape": [line_cells[21], line_cells[22], line_cells[23], line_cells[24], line_cells[25], line_cells[26]],
         "marked": line_cells[15]
     }
 
-
+# create dict for all possible assets for each relevant feature
 shape_dict = ['triangle', 'quadrat', 'circle', 'star', 'diamond', 'heart']
 color_dict = ['green', 'blue', 'orange', 'black', 'grey', 'brown']
-size_dict = [1, 2, 3, 9, 10]# small: 1, 2, 3; large: 9, 10
+size_dict = [1, 2, 3, 9, 10]  # small: 1, 2, 3; large: 9, 10
+
+
 # create list of dicts for each extracted line
 trial_dicts_list = list(map(create_dict, stimuli_file))
+
+
+# flip a unfair coin with certain p-value
+def flip(p):
+    return True if random.random() < p else False
 
 
 # main function
 def main():
     for t in trial_dicts_list:
+        #filename = "test" + t["item"] + ".svg"
         filename = "pic" + t["item"] + t["condition"] + ".svg"
         pattern = 1
         suffled_objects = numpy.random.permutation([0, 1, 2, 3, 4, 5])
@@ -277,8 +287,10 @@ def main():
         c.set_source_rgb(1, 0, 0)
         c.set_line_width(5)
         c.stroke()
-		#current_color = ...
-		#current_shape = ...
+        current_color = numpy.random.permutation(color_dict)[0]
+        current_shape = numpy.random.permutation(shape_dict)[0]
+        current_shape_dict = copy.copy(shape_dict)
+        current_color_dict = copy.copy(color_dict)
         for i in range(0, 6):
             shape = t["shape"][suffled_objects[i]]
             if t["size"][suffled_objects[i]] != 'NA':
@@ -287,13 +299,23 @@ def main():
                 deg = numpy.random.permutation(size_dict)[0]
             color = t["color"][suffled_objects[i]]
             if shape == 'NA':
-			    # flip(.9) ? shape = current shape : shape  ... (but: not identical)... current_shape =
-                shape = numpy.random.permutation(shape_dict)[0]
+                if numpy.random.binomial(1, 0.7) == 1:
+                    shape = current_shape
+                    print("true")
+                else:
+                    current_shape_dict.remove(current_shape)
+                    current_shape = numpy.random.permutation(current_shape_dict)[0]
+                    shape = current_shape
+                    print("false")
             if color == 'NA':
-			    # flip(.9) ? color = current color : color  ... (but: not identical)... current_color =
-                color = numpy.random.permutation(color_dict)[0]
+                if flip(0.7):
+                    color = current_color
+                else:
+                    current_color_dict.remove(current_color)
+                    current_color = numpy.random.permutation(current_color_dict)[0]
+                    color = current_color
             print(suffled_objects[i])
-            print("deg:" + str(deg))
+            print("shape:" + shape)
             if shape == "heart":
                 tmp = Heart(c, offset + horizontal_distance * i, bottom, height, width, deg,
                             color, pattern)
