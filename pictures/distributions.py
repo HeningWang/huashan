@@ -301,21 +301,18 @@ def main():
             if shape == 'NA':
                 if numpy.random.binomial(1, 0.7) == 1:
                     shape = current_shape
-                    print("true")
                 else:
                     current_shape_dict.remove(current_shape)
                     current_shape = numpy.random.permutation(current_shape_dict)[0]
                     shape = current_shape
-                    print("false")
             if color == 'NA':
-                if flip(0.7):
+                if numpy.random.binomial(1, 0.7) == 1:
                     color = current_color
                 else:
                     current_color_dict.remove(current_color)
                     current_color = numpy.random.permutation(current_color_dict)[0]
                     color = current_color
             print(suffled_objects[i])
-            print("shape:" + shape)
             if shape == "heart":
                 tmp = Heart(c, offset + horizontal_distance * i, bottom, height, width, deg,
                             color, pattern)
