@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240pt" height="300pt" viewBox="0 0 1240 300" version="1.1">
+<g id="surface1296">
+<rect x="0" y="0" width="1240" height="300" style="fill:rgb(90%,90%,90%);fill-opacity:1;stroke:none;"/>
+<path style="fill:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 430 270 L 620 270 L 620 70 L 430 70 Z M 430 270 "/>
+<path style="fill-rule:nonzero;fill:rgb(35%,70%,90%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 145 170 L 157.359375 170 L 162.359375 158.246094 L 167.359375 170 L 179.722656 170 L 169.722656 177.265625 L 173.089844 190.410156 L 162.359375 183.144531 L 151.632813 190.410156 L 156.753906 177.265625 L 145 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(35%,70%,90%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 250 150 L 311.804688 150 L 336.804688 91.222656 L 361.804688 150 L 423.605469 150 L 373.605469 186.328125 L 390.449219 252.042969 L 336.804688 215.714844 L 283.15625 252.042969 L 308.777344 186.328125 L 250 150 "/>
+<path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 465 110 L 585 110 L 585 230 L 465 230 Z M 465 110 "/>
+<path style="fill-rule:nonzero;fill:rgb(35%,70%,90%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 785 170 C 785 208.660156 753.660156 240 715 240 C 676.339844 240 645 208.660156 645 170 C 645 131.339844 676.339844 100 715 100 C 753.660156 100 785 131.339844 785 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(35%,70%,90%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 905 150 C 905 109.5 837.5 109.5 837.5 150 C 837.5 190.5 905 197.25 905 231 C 905 197.25 972.5 190.5 972.5 150 C 972.5 109.5 905 109.5 905 150 "/>
+<path style="fill-rule:nonzero;fill:rgb(35%,70%,90%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 1095 150 C 1095 105 1020 105 1020 150 C 1020 195 1095 202.5 1095 240 C 1095 202.5 1170 195 1170 150 C 1170 105 1095 105 1095 150 "/>
+</g>
+</svg>
