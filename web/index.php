@@ -164,6 +164,7 @@
 	    <span class="left_response">{{}}</span>
 	    <span class="right_response">{{}}</span>
     </div>
+	<br>
 	<div class="slider" style="width:30%; left:35%"></div>
 	<label class="checkbox_label"><input type="checkbox" class="none_fits" value="none fits" />Keine Beschreibung passt.</label>
     <p class="err">{{}}</p>
@@ -186,6 +187,7 @@
 	    <span class="left_response">{{}}</span>
 	    <span class="right_response">{{}}</span>
     </div>
+	<br>
 	<div class="slider" style="width:30%; left:35%"></div>
 	<label class="checkbox_label"><input type="checkbox" class="none_fits" value="none fits" />Keine Beschreibung passt.</label>
     <p class="err">{{}}</p>
@@ -209,6 +211,7 @@
 	    <span class="right_response">{{}}</span>
     </div>
 	<div class="slider" style="width:30%; left:35%"></div>
+	<br>
 	<label class="checkbox_label"><input type="checkbox" class="none_fits" value="none fits" />Keine Beschreibung passt.</label>
     <p class="err">{{}}</p>
   </div>
@@ -233,6 +236,7 @@
 	    <span class="right_response">{{}}</span>
     </div>
 	<div class="slider" style="width:30%; left:35%"></div>
+	<br>
 	<label class="checkbox_label"><input type="checkbox" class="none_fits" value="none fits" />Keine Beschreibung passt.</label>
     <p class="err">{{}}</p>
   </div> 
