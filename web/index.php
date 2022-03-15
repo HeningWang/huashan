@@ -56,7 +56,7 @@
   <noscript>This task requires JavaScript.</noscript>
 
   <div class="slide" style="height:600" id="i0" >
-<p id="cocolab">Teilnahmeinformationen zur Studie Schesaplana</p>
+<p id="cocolab">Teilnahmeinformationen zur Studie Huashan</p>
     <p id="instruct-text">Herzlich Willkommen bei unserer Studie zur Satzverarbeitung! Wir danken Ihnen für Ihr Interesse an dieser Studie. Wir untersuchen mit dieser Studie, wie verschiedene Sätze verstanden werden. Genauere Informationen zum Forschungszweck werden nach ihrer Teilnahme bereitgestellt. Dieses Schreiben dient dazu, Sie über das Ziel der Studie sowie über das Vorgehen in dem Forschungsprojekt zu informieren. Bitte lesen Sie sich den Text aufmerksam durch. </p>
 	<p id="legal"><b>Ablauf der Studie</b>: In diesem Experiment geht es darum, zwischen mehr oder weniger passenden Beschreibungen von abgebildeten Objekten abzuwägen. Das genaue Vorgehen wird Ihnen zu Beginn anhand einiger Übungsbeispiele verdeutlicht. Es wird insgesamt 180 Durchgänge geben, die in vier Blöcke aufgeteilt sind. Zwischen den Blöcken können Sie pausieren. Das Ausfüllen des Fragebogens wird ca. 45 Minuten in Anspruch nehmen.</p>
 	<p id="legal"><b>Datenverarbeitung</b>: Im Rahmen der Studie werden, abgesehen von freiwilligen Angaben am Ende, keine personenbezogenen Daten erhoben oder verarbeitet. Die anonymen Daten (Lesezeiten, Antworten im Experiment und Angaben zur Muttersprache) sowie eventuell einige freiwillige Angaben (z.B. Alter oder Kommentare zum Verlauf des Experiments) werden auf einem Server der Universität Tübingen abgespeichert. IP-Adressen, MAC-Adressen oder Ortungs-Daten sind im Rahmen der Studien nicht relevant und werden demnach nicht erhoben. Nach Beenden des Experiments wird ihr Datensatz anonym gespeichert und kann dann nicht mehr zugeordnet oder gezielt gelöscht werden. Die Projektmitarbeiter unterliegen der Schweigepflicht bzw. dem Datengeheimnis. Die anonymen Daten werden mindestens 10 Jahre gespeichert und können für zukünftige Forschungsvorhaben genutzt und weiterverarbeitet werden. Die Forschungsergebnisse aus der Studie werden in anonymer Form in Fachzeitschriften oder in wissenschaftlichen Datenbanken veröffentlicht. Bei der Veröffentlichung der Forschungsergebnisse wird Ihre Identität nicht bekannt. Der Studienleiter (Fabian Schlotterbeck) ist für die Datenverarbeitung und die Einhaltung der gesetzlichen Datenschutzbestimmungen verantwortlich und bei Fragen unter der Email-Adresse fabian.schlotterbeck@uni-tuebingen.de zu erreichen. Bei weiteren Anliegen können Sie sich an den Datenschutzbeauftragten der Universität Tübingen (Geschwister-Scholl-Platz, 72074 Tübingen, E-Mail: datenschutz@uni-tuebingen.de, Telefon: +49 70 71 29-0) wenden. Für die Erhebung, Speicherung, Nutzung und Weitergabe Ihrer Daten ist Ihre ausdrückliche Zustimmung durch Anklicken der Punkte in der Einwilligungserklärung zum Datenschutz erforderlich.   </p>
@@ -68,7 +68,7 @@
   
   <div class="slide"  id="consent" style="padding-top:90px">
     <div class="long_form">
-      <div class="consent_title"><h3>Einwilligungserklärung zur Studie Pfaender</h3></div>
+      <div class="consent_title"><h3>Einwilligungserklärung zur Studie Huashan</h3></div>
 	  <div class="optionset" id="optionset" style="text-align: left;">
 		<input type="checkbox" id="checkbox1" name="checkbox" class="option" value="1">
 		<label class="option_label" id="checkbox1_label" for="checkbox1" name="checkbox_label">Ich bin schriftlich über das Experiment und den Versuchsablauf aufgeklärt worden. Ich habe alle Informationen vollständig gelesen und verstanden.</label><br>
@@ -134,8 +134,8 @@
   
   <div class="slide" id="instructions" style="padding-top:60px">
 	<p>Gleich geht's los.</p>
-    <p>Denken Sie daran: Es geht darum, zu bewerten welche Aussage passender ist, um die hervorgehobene Lieblingskarte im jeweiligen Kartenset zu beschreiben.</p>
-	<p>Nachdem Sie ihre Bewertung mit Hilfe des Schieberglers angegeben haben, kommen Sie per Druck der <b>Leertaste</b> zum nächsten Durchgang.</p>
+    <p>Denken Sie daran: Es geht darum, zu bewerten welche Frage passender ist, um den hervorgehobenen Lieblingsaufkleber im jeweiligen Aufkleberset zu beschreiben.</p>
+	<p>Nachdem Sie ihre Bewertung mit Hilfe des Schiebreglers angegeben haben, kommen Sie per Druck der <b>Leertaste</b> zum nächsten Durchgang.</p>
 	<p><b>Drücken Sie jetzt die LEERTASTE</b>, um einen kurzen Übungsblock zu beginnen.</p>
   </div>
 
@@ -201,7 +201,7 @@
   <div class="slide" id="end_break_two">
 	<p style="margin-top: 130px;">Sie können jetzt pausieren.</p>
 	<p>Wenn Sie bereit für den nächsten Block sind, <b>drücken Sie B</b>, um ihn zu beginnen.</p> 
-	<p>Denken Sie daran: Es geht darum zu bewerten, welche Aussage passender ist, um die hervorgehobene Lieblingskarte im jeweiligen Kartenset zu beschreiben.</p>
+	<p>Denken Sie daran: Es geht darum, zu bewerten welche Frage passender ist, um den hervorgehobenen Lieblingsaufkleber im jeweiligen Aufkleberset zu beschreiben.</p>
   </div>
   
   <div class="slide" id="single_trial_third_block">
@@ -224,7 +224,7 @@
   <div class="slide" id="end_break_three">
 	<p style="margin-top: 130px;">Sie können jetzt pausieren.</p>
 	<p>Wenn Sie bereit für den nächsten Block sind, <b>drücken Sie B</b>, um ihn zu beginnen.</p> 
-	<p>Denken Sie daran: Es geht darum zu bewerten, welche Aussage passender ist, um die hervorgehobene Lieblingskarte im jeweiligen Kartenset zu beschreiben.</p>
+	<p>Denken Sie daran: Es geht darum, zu bewerten welche Frage passender ist, um den hervorgehobenen Lieblingsaufkleber im jeweiligen Aufkleberset zu beschreiben.</p>
 
   </div>
 
