@@ -56,12 +56,11 @@
   <noscript>This task requires JavaScript.</noscript>
 
   <div class="slide" style="height:600" id="i0" >
-   <p id="cocolab">Teilnahmeinformationen zur Studie Pfaender</p>
-    <p id="instruct-text">Liebe Teilnehmerin, lieber Teilnehmer,<br><br> vielen Dank, dass Sie an dieser Studie teilnehmen, die wir im Rahmen eines Seminars der Germanistischen Linguistik an der Universität Tübingen durchführen! Hier erhalten Sie vorab einige Informationen zur Studie.</p>
-	<p>In diesem Experiment geht es darum, zwischen mehr oder weniger passenden Beschreibungen von abgebildeten Objekten abzuwägen. </p>
-	<p id="legal"><b>Ablauf der Studie</b>: Es wird insgesamt 60 Durchgänge geben, die in vier Blöcke aufgeteilt sind. Zwischen den Blöcken können Sie pausieren. Das Ausfüllen des Fragebogens wird ca. 20 Minuten in Anspruch nehmen. 
-	Am Ende dieses Fragebogens erheben wir einige freiwillige persönliche Daten. Sollten Sie diese Angaben nicht machen wollen, können Sie alle Fragen bis auf die Frage nach Ihrer Muttersprache offenlassen. </p>
-	<p id="legal"><b>Datenschutz &amp; Freiwilligkeit</b>: Die Teilnahme an dieser Studie ist freiwillig und anonym. Ein Rückschluss der Untersuchungsergebnisse auf Ihre Person ist nicht möglich. Alle erhobenen Daten werden ausschließlich zum Zweck der wissenschaftlichen Studie gespeichert und werden nicht an Dritte weitergeleitet. Sie können das Experiment, bis Sie den letzten Button, „Experiment beenden“, betätigen, jederzeit und ohne Angabe von Gründen abbrechen, ohne dass Ihnen daraus Nachteile entstehen. Ihre Daten werden dann nicht gespeichert. Sie haben dann trotzdem für die bis dahin vergangene Zeit Anspruch auf eine entsprechende Kompensation. Falls Sie frühzeitig abbrechen sollten, haben Sie folglich die Möglichkeit, uns zu kontaktieren, um (i) eine teilweise Entschädigung zu bekommen und (ii) ein Debriefing mit einer Erklärung unserer Forschungsfragen und Methoden zu erhalten. In diesem Fall kontaktieren Sie bitte den Studienleiter (Fabian Schlotterbeck, Email-Adresse:  fabian.schlotterbeck@uni-tuebingen.de).</p>
+<p id="cocolab">Teilnahmeinformationen zur Studie Schesaplana</p>
+    <p id="instruct-text">Herzlich Willkommen bei unserer Studie zur Satzverarbeitung! Wir danken Ihnen für Ihr Interesse an dieser Studie. Wir untersuchen mit dieser Studie, wie verschiedene Sätze verstanden werden. Genauere Informationen zum Forschungszweck werden nach ihrer Teilnahme bereitgestellt. Dieses Schreiben dient dazu, Sie über das Ziel der Studie sowie über das Vorgehen in dem Forschungsprojekt zu informieren. Bitte lesen Sie sich den Text aufmerksam durch. </p>
+	<p id="legal"><b>Ablauf der Studie</b>: In diesem Experiment geht es darum, zwischen mehr oder weniger passenden Beschreibungen von abgebildeten Objekten abzuwägen. Das genaue Vorgehen wird Ihnen zu Beginn anhand einiger Übungsbeispiele verdeutlicht. Es wird insgesamt 180 Durchgänge geben, die in vier Blöcke aufgeteilt sind. Zwischen den Blöcken können Sie pausieren. Das Ausfüllen des Fragebogens wird ca. 45 Minuten in Anspruch nehmen.</p>
+	<p id="legal"><b>Datenverarbeitung</b>: Im Rahmen der Studie werden, abgesehen von freiwilligen Angaben am Ende, keine personenbezogenen Daten erhoben oder verarbeitet. Die anonymen Daten (Lesezeiten, Antworten im Experiment und Angaben zur Muttersprache) sowie eventuell einige freiwillige Angaben (z.B. Alter oder Kommentare zum Verlauf des Experiments) werden auf einem Server der Universität Tübingen abgespeichert. IP-Adressen, MAC-Adressen oder Ortungs-Daten sind im Rahmen der Studien nicht relevant und werden demnach nicht erhoben. Nach Beenden des Experiments wird ihr Datensatz anonym gespeichert und kann dann nicht mehr zugeordnet oder gezielt gelöscht werden. Die Projektmitarbeiter unterliegen der Schweigepflicht bzw. dem Datengeheimnis. Die anonymen Daten werden mindestens 10 Jahre gespeichert und können für zukünftige Forschungsvorhaben genutzt und weiterverarbeitet werden. Die Forschungsergebnisse aus der Studie werden in anonymer Form in Fachzeitschriften oder in wissenschaftlichen Datenbanken veröffentlicht. Bei der Veröffentlichung der Forschungsergebnisse wird Ihre Identität nicht bekannt. Der Studienleiter (Fabian Schlotterbeck) ist für die Datenverarbeitung und die Einhaltung der gesetzlichen Datenschutzbestimmungen verantwortlich und bei Fragen unter der Email-Adresse fabian.schlotterbeck@uni-tuebingen.de zu erreichen. Bei weiteren Anliegen können Sie sich an den Datenschutzbeauftragten der Universität Tübingen (Geschwister-Scholl-Platz, 72074 Tübingen, E-Mail: datenschutz@uni-tuebingen.de, Telefon: +49 70 71 29-0) wenden. Für die Erhebung, Speicherung, Nutzung und Weitergabe Ihrer Daten ist Ihre ausdrückliche Zustimmung durch Anklicken der Punkte in der Einwilligungserklärung zum Datenschutz erforderlich.   </p>
+	<p id="legal"><b>Freiwilligkeit</b>: Sie können das Experiment, bis Sie den letzten Button, „Experiment beenden“, betätigen, jederzeit und ohne Angabe von Gründen abbrechen, ohne dass Ihnen daraus Nachteile entstehen. Ihre Daten werden dann nicht gespeichert. Sie haben dann trotzdem für die bis dahin vergangene Zeit Anspruch auf eine entsprechende Kompensation. Falls Sie frühzeitig abbrechen sollten, haben Sie folglich die Möglichkeit, uns zu kontaktieren, um (i) eine teilweise Entschädigung zu bekommen und (ii) ein Debriefing mit einer Erklärung unserer Forschungsfragen und Methoden zu erhalten. In diesem Fall kontaktieren Sie bitte den Studienleiter (Fabian Schlotterbeck, Email-Adresse:  fabian.schlotterbeck@uni-tuebingen.de).</p>
 	<!--is the following needed-->
 	<!--<p id="instruct-text">Mit dem Drücken der folgenden Taste versichern Sie, dass Sie die oben beschriebenen Teilnehmerinformationen verstanden haben und mit den genannten Teilnahmebedingungen einverstanden sind.</p>-->
 	<button id="start_button">Weiter</button>
@@ -96,8 +95,8 @@
 	<p>
 		<table style="width:100%; border: 1px solid black;">
 		  <tr>
-			<td>Versuchsleiter: Fabian Schlotterbeck</td>
-			<td>Projektleiterin: Polina Berezovskaya</td>
+			<td>Versuchsleiter: Hening Wang</td>
+			<td>Projektleiter: Fabian Schlotterbeck</td>
 		  </tr>
 		  <tr>
 			<td><i>Universität Tübingen</i></td>
@@ -105,19 +104,19 @@
 		  </tr>
 		  <tr>
 			<td><i>Philosophische Fakultät, Deutsches Seminar, Linguistische Abteilung</i></td>
-			<td><i>Philosophische Fakultät, Englisches Seminar, English Linguistics</i></td>
+			<td><i>Philosophische Fakultät, Englisches Seminar, Linguistische Abteilung</i></td>
 		  </tr>
 		  <tr>
 			<td><i>Wilhelmstraße 50, Raum 448 </i></td>
-			<td><i>Wilhelmstraße 50, Raum 464 </i></td>
+			<td><i>Wilhelmstraße 50, Raum 448 </i></td>
 		  </tr>
 		  <tr>
+			<td><code>hening.wang@student.uni-tuebingen.de</code></td>
 			<td><code>fabian.schlotterbeck@uni-tuebingen.de</code></td>
-			<td><code>polina.berezovskaya@uni-tuebingen.de</code></td>
 		  </tr>
 		  <tr>
 			<td><code>07071 29 76740 </code></td>
-			<td><code>07071 29 74280</code></td>
+			<td><code>07071 29 76740</code></td>
 		  </tr>
 		</table> 
 	</p>
