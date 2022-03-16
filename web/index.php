@@ -134,7 +134,7 @@
   
   <div class="slide" id="instructions" style="padding-top:60px">
 	<p>Gleich geht's los.</p>
-    <p>Denken Sie daran: Es geht darum, zu bewerten welche Frage passender ist, um den hervorgehobenen Lieblingsaufkleber im jeweiligen Aufkleberset zu beschreiben.</p>
+    <p>Denken Sie daran: Es geht darum, zu bewerten welche Frage passender ist, um den hervorgehobenen Aufkleber im jeweiligen Aufkleberset zu beschreiben.</p>
 	<p>Nachdem Sie ihre Bewertung mit Hilfe des Schiebreglers angegeben haben, kommen Sie per Druck der <b>Leertaste</b> zum nächsten Durchgang.</p>
 	<p><b>Drücken Sie jetzt die LEERTASTE</b>, um einen kurzen Übungsblock zu beginnen.</p>
   </div>
@@ -179,7 +179,7 @@
   <div class="slide" id="end_break_one">
     <p style="margin-top: 130px;">Sie können jetzt pausieren.</p>
 	<p>Wenn Sie bereit für den nächsten Block sind, <b>drücken Sie B</b>, um ihn zu beginnen.</p> 
-	<p>Denken Sie daran: Es geht darum zu bewerten, welche Aussage passender ist, um die hervorgehobene Lieblingskarte im jeweiligen Kartenset zu beschreiben.</p>
+	<p>Denken Sie daran: Es geht darum zu bewerten, welche Aussage passender ist, um den hervorgehobenen Aufkleber im jeweiligen Aufkleberset zu beschreiben.</p>
   </div>
   
   <div class="slide" id="single_trial_second_block">
@@ -202,7 +202,7 @@
   <div class="slide" id="end_break_two">
 	<p style="margin-top: 130px;">Sie können jetzt pausieren.</p>
 	<p>Wenn Sie bereit für den nächsten Block sind, <b>drücken Sie B</b>, um ihn zu beginnen.</p> 
-	<p>Denken Sie daran: Es geht darum, zu bewerten welche Frage passender ist, um den hervorgehobenen Lieblingsaufkleber im jeweiligen Aufkleberset zu beschreiben.</p>
+	<p>Denken Sie daran: Es geht darum, zu bewerten welche Frage passender ist, um den hervorgehobenen Aufkleber im jeweiligen Aufkleberset zu beschreiben.</p>
   </div>
   
   <div class="slide" id="single_trial_third_block">
@@ -225,7 +225,7 @@
   <div class="slide" id="end_break_three">
 	<p style="margin-top: 130px;">Sie können jetzt pausieren.</p>
 	<p>Wenn Sie bereit für den nächsten Block sind, <b>drücken Sie B</b>, um ihn zu beginnen.</p> 
-	<p>Denken Sie daran: Es geht darum, zu bewerten welche Frage passender ist, um den hervorgehobenen Lieblingsaufkleber im jeweiligen Aufkleberset zu beschreiben.</p>
+	<p>Denken Sie daran: Es geht darum, zu bewerten welche Frage passender ist, um den hervorgehobenen Aufkleber im jeweiligen Aufkleberset zu beschreiben.</p>
 
   </div>
 
