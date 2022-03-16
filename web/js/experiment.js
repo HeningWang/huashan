@@ -2,7 +2,7 @@ var randomized_maintrials = _.shuffle(maintrials)
 //console.log(randomized_maintrials);
 //select list
 if (list==0){
-	var selected_list = Math.floor(Math.random() * 4)+1;
+	var selected_list = Math.floor(Math.random() * 3)+1;
 } else {
 	var selected_list = list;
 }	
