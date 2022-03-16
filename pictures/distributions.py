@@ -263,7 +263,7 @@ def flip(p):
 def main():
     for t in trial_dicts_list:
         #filename = "test" + t["item"] + ".svg"
-        filename = "pic" + t["item"] + t["condition"] + ".svg"
+        filename = "l" + t["list"] + "pic" + t["item"] + t["condition"] + ".svg"
         pattern = 1
         suffled_objects = numpy.random.permutation([0, 1, 2, 3, 4, 5])
         print(suffled_objects)
