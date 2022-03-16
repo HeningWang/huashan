@@ -60,7 +60,7 @@ class Shape(object):
         elif self.color == 'grey':
             self.context.set_source_rgb(0.55, 0.51, 0.53)
         elif self.color == 'brown':
-            self.context.set_source_rgb(0.55, 0.14, 0.14)
+            self.context.set_source_rgb(0.53, 0.27, 0.07)
         elif self.color == 'black':
             self.context.set_source_rgb(0, 0, 0)
         elif self.color == 'green':
