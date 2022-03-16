@@ -584,7 +584,7 @@ function save_data (data) {
 	//save data...
 	//...on the web
 	if (on_web) {	
-		postAjax('https://www.lingexp.uni-tuebingen.de/b1/pfaender/save_data.php',
+		postAjax('https://www.lingexp.uni-tuebingen.de/b1/huashan/save_data.php',
 					{ json: JSON.stringify(data)},
 					show_completion_link
 		);	
@@ -620,7 +620,7 @@ function show_completion_link () {
 				show_done();
 				$(".click_complete").show();
 				var completion_code;
-				get_completion_link("https://www.lingexp.uni-tuebingen.de/b1/pfaender/completion_link.php", function(data){
+				get_completion_link("https://www.lingexp.uni-tuebingen.de/b1/huashan/completion_link.php", function(data){
 					completion_code = data;
 					$(".complete").attr("href", "https://app.prolific.co/submissions/complete?cc=" + data)
 					$(".complete").html("Completion code: " + data);
