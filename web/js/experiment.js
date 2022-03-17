@@ -118,7 +118,7 @@ function slide_builder(name, stims, feedback) {
 				_s.slider_value = undefined;
 				$('.none_fits').prop('checked', false);
 				//console.log(_s.slider_value);
-				var fname = "../pictures/" + "l" + stim.list + "pic" + stim.item + stim.condition + ".svg"
+				var fname = "../pictures/" + "l" + stim.list + "pic" + stim.item + stim.condition + ".png"
 				//var fname = "../pictures/" + "pic" + stim.item + ".png"
 				var alt_text = "Image cannot be displayed."
 				if (on_web) {
