@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240pt" height="300pt" viewBox="0 0 1240 300" version="1.1">
+<g id="surface2516">
+<rect x="0" y="0" width="1240" height="300" style="fill:rgb(90%,90%,90%);fill-opacity:1;stroke:none;"/>
+<path style="fill:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 810 270 L 1000 270 L 1000 70 L 810 70 Z M 810 270 "/>
+<path style="fill-rule:nonzero;fill:rgb(35%,70%,90%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 145 93.398438 L 70 223.300781 L 220 223.300781 L 145 93.398438 "/>
+<path style="fill-rule:nonzero;fill:rgb(35%,70%,90%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 345.5 170 C 345.5 175.800781 340.800781 180.5 335 180.5 C 329.199219 180.5 324.5 175.800781 324.5 170 C 324.5 164.199219 329.199219 159.5 335 159.5 C 340.800781 159.5 345.5 164.199219 345.5 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(53%,27%,7%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 525 167.007813 L 513.75 186.496094 L 536.25 186.496094 L 525 167.007813 "/>
+<path style="fill-rule:nonzero;fill:rgb(35%,70%,90%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 746.5 170 C 746.5 187.398438 732.398438 201.5 715 201.5 C 697.601563 201.5 683.5 187.398438 683.5 170 C 683.5 152.601563 697.601563 138.5 715 138.5 C 732.398438 138.5 746.5 152.601563 746.5 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(53%,27%,7%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 975 170 C 975 208.660156 943.660156 240 905 240 C 866.339844 240 835 208.660156 835 170 C 835 131.339844 866.339844 100 905 100 C 943.660156 100 975 131.339844 975 170 "/>
+<path style="fill-rule:nonzero;fill:rgb(53%,27%,7%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 1095 154.019531 L 1072.5 192.992188 L 1117.5 192.992188 L 1095 154.019531 "/>
+</g>
+</svg>
