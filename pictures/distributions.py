@@ -223,7 +223,7 @@ class Circle(Shape):
 
 
 # read csv file as list of lists of strings
-with open('../stimuli_scharf.csv', 'r', encoding='utf8') as f:
+with open('../stimuli_table.csv', 'r', encoding='utf8') as f:
     reader = csv.reader(f)
     # skip header
     next(reader, None)
