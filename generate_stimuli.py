@@ -3,7 +3,7 @@ import csv
 #import sys
 
 #read csv file as list of lists of strings
-with open('stimuli_scharf.csv', 'r', encoding='utf-8') as f:
+with open('stimuli_table.csv', 'r', encoding='utf-8') as f:
     reader = csv.reader(f)
 
     #skip header
@@ -26,6 +26,7 @@ def create_dict(line):
             "context": line_cells[30],			
             "sentence1": line_cells[28],
             "sentence2": line_cells[29],
+			"sharpness": line_cells[31],
 			"item": line_cells[2]}
 
 
