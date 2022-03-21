@@ -155,7 +155,7 @@ function slide_builder(name, stims, feedback) {
 					$(".display_condition").show();				
 					$(".slider").show();
 					//var sentences = _.shuffle([stim.sentence1, stim.sentence2]);
-					$(".right_response").html(exp.condition == "L" ? stim.sentence1 : stim.sentence2);//added after first bunch of participants 19 July 14:48
+					$(".right_response").html(exp.condition == "L" ? stim.sentence1 : stim.sentence2);
 					$(".left_response").html(exp.condition == "L" ? stim.sentence2 : stim.sentence1);
 					$(".right_response").show();
 					$(".left_response").show();
