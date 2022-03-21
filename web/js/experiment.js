@@ -628,7 +628,7 @@ function show_completion_link () {
 					//$(".complete").attr("href", "mailto:experimente-b8@sfb833.uni-tuebingen.de?subject=Teilnahme%20" + exp.id);
 					//$(".complete").html("Teilnahme-Code: " + exp.id);
 					$(".complete").show();
-					$(".debriefing").html("Code für <a href=\"Debriefing_Public_encrypted.pdf\" target =\"_blank\">Debriefing-Dokument</a>: " + data);
+					$(".debriefing").html("Code für <a href=\"Debriefing_encrypted.pdf\" target =\"_blank\">Debriefing-Dokument</a>: " + data);
 					$(".debriefing").show();
 					console.log("got"+data);
 					console.log(data);
