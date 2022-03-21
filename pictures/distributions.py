@@ -291,6 +291,8 @@ def main():
         current_shape = numpy.random.permutation(shape_dict)[0]
         current_shape_dict = copy.copy(shape_dict)
         current_color_dict = copy.copy(color_dict)
+        count1 = 0
+        count2 = 0
         for i in range(0, 6):
             shape = t["shape"][suffled_objects[i]]
             if t["size"][suffled_objects[i]] != 'NA':
@@ -302,16 +304,24 @@ def main():
                 if numpy.random.binomial(1, 0.7) == 1:
                     shape = current_shape
                 else:
-                    current_shape_dict.remove(current_shape)
-                    current_shape = numpy.random.permutation(current_shape_dict)[0]
-                    shape = current_shape
+                    if count1 < 5:
+                        current_shape_dict.remove(current_shape)
+                        current_shape = numpy.random.permutation(current_shape_dict)[0]
+                        shape = current_shape
+                        count1 = count1 + 1
+                    else:
+                        shape = current_shape
             if color == 'NA':
                 if numpy.random.binomial(1, 0.7) == 1:
                     color = current_color
                 else:
-                    current_color_dict.remove(current_color)
-                    current_color = numpy.random.permutation(current_color_dict)[0]
-                    color = current_color
+                    if count2 < 5:
+                        current_color_dict.remove(current_color)
+                        current_color = numpy.random.permutation(current_color_dict)[0]
+                        color = current_color
+                        count2 = count2 + 1
+                    else:
+                        color = current_color
             print(suffled_objects[i])
             if shape == "heart":
                 tmp = Heart(c, offset + horizontal_distance * i, bottom, height, width, deg,
