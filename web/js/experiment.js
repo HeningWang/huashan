@@ -40,7 +40,7 @@ console.log(stims_block3);
 var stims_block4 = all_stims.slice(block_boundaries[2],total_number_of_trials);
 console.log(stims_block4);
 
-trainingtrials= randomized_maintrials.filter(trial=>trial.list==5);
+trainingtrials= randomized_maintrials.filter(trial=>trial.list==7);
 
 randomized_trainingtrials = _.shuffle(trainingtrials);
 //console.log(randomized_trainingtrials);
