@@ -1,0 +1,11 @@
+left-right,id,missed_break_one,missed_break_two,missed_break_three,time_in_minutes,language,asses,age,gender,comments,fluent
+L,6238aff6c6587,False,False,False,15.8889,deutsch,Yes,18,Female,,Yes
+S,6238b11a21f63,False,False,False,21.608283333333333,deutsch,Yes,27,Male,"was ist klein, grün, und dreieckig? ein kleines grünes dreieck. und was ist klein, schwarz und dreieckig? der schatten vom kleinen grünen dreieck.
+
+da wird man ja verrückt bei.",Yes
+L,6238b13bbbb36,False,False,True,24.148216666666666,Deutsch,Yes,29,Male,,Yes
+S,6238b37c5233e,False,False,False,18.921283333333335,Deutsch,Yes,19,Female,,Yes
+S,6238b4f7b8837,False,False,False,33.794866666666664,"Deutsch, Russisch",Yes,25,Female,"Die kleinen Symbole waren manchmal so klein, dass es schwer war die Farbe zu identifizieren, nicht unmöglich aber schwierig. 
+Weitere fliessende Sprache ist Englisch.",Yes
+S,6238b5c185bda,False,False,False,29.545983333333332,Deutsch,Yes,43,Male,,Yes
+L,6238b6e7d9678,False,False,False,35.089733333333335,deutsch,Yes,23,Female,,Yes
