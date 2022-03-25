@@ -41,7 +41,9 @@ data$slider_value <- as.numeric(data$slider_value)
 data <- merge(data,subj_exp_condition)
 
 #TODO: adjust later
-data$prefer_subj_1st <- ifelse(data$left.right=="S", 100-data$slider_value,data$slider_value)
+data$prefer_subj_1st <- ifelse(data$left.right=="S", 100-data$slider_value, data$slider_value)
+
+aggregate(data$prefer_subj_1st, list(data$conditions), FUN = function(x){c(mean(x), sd(x)/sqrt(length(x)))})
 
 # #TODO: adjust later
 # #data_filler <- subset(data, conditions %in% c("filler_false", "filler_true"))

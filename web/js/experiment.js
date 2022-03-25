@@ -149,14 +149,17 @@ function slide_builder(name, stims, feedback) {
 				if (step == -1) {
 						_s.read_time = [];
 				}
+                
+				
 
 				$("img").load(function(){
 					$(".display_condition").html(joined);
 					$(".display_condition").show();				
 					$(".slider").show();
 					//var sentences = _.shuffle([stim.sentence1, stim.sentence2]);
-					$(".right_response").html(exp.condition == "L" ? stim.sentence1 : stim.sentence2);
-					$(".left_response").html(exp.condition == "L" ? stim.sentence2 : stim.sentence1);
+					_s.leftright = _.sample(["1right", "1left"])
+					$(".right_response").html(_s.leftright == "1right" ? stim.sentence1 : stim.sentence2);
+					$(".left_response").html(_s.leftright == "1right" ? stim.sentence2 : stim.sentence1);
 					$(".right_response").show();
 					$(".left_response").show();
 					$(".none_fits").show();
@@ -239,6 +242,7 @@ function slide_builder(name, stims, feedback) {
 				"correct_response": this.stim.correct_response,
 				"image_error": this.image_error,
 				"slider_value": this.slider_value,
+				"leftright_trial": this.leftright
 			});
 			// TODO: make sure we still have more trials, else call exp.go()
 			if(_s.present.length > 0) {
