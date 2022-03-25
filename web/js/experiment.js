@@ -157,7 +157,7 @@ function slide_builder(name, stims, feedback) {
 					$(".display_condition").show();				
 					$(".slider").show();
 					//var sentences = _.shuffle([stim.sentence1, stim.sentence2]);
-					_s.leftright = _.sample(["1right", "1left"])
+					_s.leftright = _.sample(["1right", "1left"]);
 					$(".right_response").html(_s.leftright == "1right" ? stim.sentence1 : stim.sentence2);
 					$(".left_response").html(_s.leftright == "1right" ? stim.sentence2 : stim.sentence1);
 					$(".right_response").show();
@@ -244,6 +244,7 @@ function slide_builder(name, stims, feedback) {
 				"slider_value": this.slider_value,
 				"leftright_trial": this.leftright
 			});
+			console.log(this.leftright);
 			// TODO: make sure we still have more trials, else call exp.go()
 			if(_s.present.length > 0) {
 				_stream.apply(this)
