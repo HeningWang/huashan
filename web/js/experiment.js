@@ -198,7 +198,7 @@ function slide_builder(name, stims, feedback) {
 			    // listen for a space bar
 			    $(document).keydown(function(event) {
 				    if(event.which == CHAR) {
-					    var rt = Date.now() - init_time; // in milliseconds
+					    var rt = Date.now() - init_time; // in ms
 						_s.read_time.push(rt);
 						//press_and_hold(CHAR, display_two);
 						//clearAll();
