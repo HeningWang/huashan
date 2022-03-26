@@ -242,9 +242,9 @@ function slide_builder(name, stims, feedback) {
 				"correct_response": this.stim.correct_response,
 				"image_error": this.image_error,
 				"slider_value": this.slider_value,
-				"leftright_trial": this.leftright
+				"leftright_trial": this.leftright,
+				"list": this.stim.list
 			});
-			console.log(this.leftright);
 			// TODO: make sure we still have more trials, else call exp.go()
 			if(_s.present.length > 0) {
 				_stream.apply(this)
