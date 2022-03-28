@@ -43,7 +43,19 @@ data$slider_value <- as.numeric(data$slider_value)
 
 data <- merge(data,subj_exp_condition)
 
-#TODO: adjust later
+#TODO: analyze none fits...
+data$none_fits <- ifelse(data$slider_value==-1, 1, 0)
+
+#like so:
+#glmer(none_fits ~ conditions + (1|id) + (1|item), data=data, family=binomial)
+
+
+data$slider_value <- ifelse(data$slider_value==-1, NA, data$slider_value)
+
+
+data <- subset(data, !is.na(data$slider_value))
+
+#TODO: adjust later, rename variable
 data$prefer_subj_1st <- ifelse(data$leftright_trial=="1left", 100-data$slider_value, data$slider_value)
 
 aggregate(data$prefer_subj_1st, list(data$conditions), FUN = function(x){c(mean(x), sd(x)/sqrt(length(x)))})
