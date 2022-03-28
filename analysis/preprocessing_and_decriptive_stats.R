@@ -18,13 +18,16 @@ subj_info <-read.csv(file = "../data/huashan_subj_info.csv")
 #...
 
 
-subj_exp_condition<-subj_info[c("id","left.right")]
+#subj_exp_condition<-subj_info[c("id","left.right")]
 
 #head(data, n=5)
 
 
 xtabs(~id, data=data)
 xtabs(~id+conditions, data=data)#TODO: check
+xtabs(~id+leftright_trial, data=data)#TODO: check
+xtabs(~id+list, data=data)#TODO: check
+
 
 xtabs(~conditions, data=data[data$item==1,])
 
@@ -40,8 +43,20 @@ data$slider_value <- as.numeric(data$slider_value)
 
 data <- merge(data,subj_exp_condition)
 
-#TODO: adjust later
-data$prefer_subj_1st <- ifelse(data$left.right=="S", 100-data$slider_value, data$slider_value)
+#TODO: analyze none fits...
+data$none_fits <- ifelse(data$slider_value==-1, 1, 0)
+
+#like so:
+#glmer(none_fits ~ conditions + (1|id) + (1|item), data=data, family=binomial)
+
+
+data$slider_value <- ifelse(data$slider_value==-1, NA, data$slider_value)
+
+
+data <- subset(data, !is.na(data$slider_value))
+
+#TODO: adjust later, rename variable
+data$prefer_subj_1st <- ifelse(data$leftright_trial=="1left", 100-data$slider_value, data$slider_value)
 
 aggregate(data$prefer_subj_1st, list(data$conditions), FUN = function(x){c(mean(x), sd(x)/sqrt(length(x)))})
 

@@ -1,12 +1,9 @@
-left-right,id,missed_break_one,missed_break_two,missed_break_three,time_in_minutes,comments,fluent,gender,language,age,asses
-L,6238aff6c6587,False,False,False,15.8889,,Yes,Female,deutsch,18,Yes
-S,6238b11a21f63,False,False,False,21.608283333333333,"was ist klein, grün, und dreieckig? ein kleines grünes dreieck. und was ist klein, schwarz und dreieckig? der schatten vom kleinen grünen dreieck.
-
-da wird man ja verrückt bei.",Yes,Male,deutsch,27,Yes
-L,6238b13bbbb36,False,False,True,24.148216666666666,,Yes,Male,Deutsch,29,Yes
-S,6238b37c5233e,False,False,False,18.921283333333335,,Yes,Female,Deutsch,19,Yes
-S,6238b4f7b8837,False,False,False,33.794866666666664,"Die kleinen Symbole waren manchmal so klein, dass es schwer war die Farbe zu identifizieren, nicht unmöglich aber schwierig. 
-Weitere fliessende Sprache ist Englisch.",Yes,Female,"Deutsch, Russisch",25,Yes
-S,6238b5c185bda,False,False,False,29.545983333333332,,Yes,Male,Deutsch,43,Yes
-L,6238b6e7d9678,False,False,False,35.089733333333335,,Yes,Female,deutsch,23,Yes
-L,6238bfd74ea94,False,False,False,25.75315,,No,Male,deutsch,25,Yes
+left-right,id,missed_break_one,missed_break_two,missed_break_three,time_in_minutes,language,asses,age,gender,comments,fluent
+L,62404d78ef30e,False,False,False,31.337883333333334,Deutsch,Yes,35,Male,,Yes
+S,62408b8870553,False,False,False,25.526216666666667,deutsch,Yes,21,Female,,Yes
+S,62408e90eaa0f,False,False,False,26.721616666666666,deutsch,Yes,30,Male,,Yes
+L,624090b35114b,False,False,False,20.45565,deutsch,Yes,39,Male,,Yes
+S,62409129c9bb7,False,False,False,17.696716666666667,Deutsch,Yes,28,Male,,Yes
+S,6240928941ed7,False,False,False,26.679716666666668,Deutsch,Yes,37,Male,,No
+S,624093750baff,False,False,False,28.30785,"deutsch, russisch",Yes,28,Male,"Spreche deutsch und englisch fließend, russisch nicht so gut.",Yes
+S,624093f3c8419,False,False,False,30.097066666666667,deutsch,Yes,27,Male,,Yes
