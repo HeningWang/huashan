@@ -43,6 +43,8 @@ data$slider_value <- as.numeric(data$slider_value)
 
 data <- merge(data,subj_exp_condition)
 
+data$dist <- ifelse(data$list<4, "sharp", "blurred")
+
 #TODO: analyze none fits...
 data$none_fits <- ifelse(data$slider_value==-1, 1, 0)
 
@@ -56,9 +58,10 @@ data$slider_value <- ifelse(data$slider_value==-1, NA, data$slider_value)
 data <- subset(data, !is.na(data$slider_value))
 
 #TODO: adjust later, rename variable
-data$prefer_subj_1st <- ifelse(data$leftright_trial=="1left", 100-data$slider_value, data$slider_value)
+data$prefer_first_1st <- ifelse(data$leftright_trial=="1left", 100-data$slider_value, data$slider_value)
 
 aggregate(data$prefer_subj_1st, list(data$conditions), FUN = function(x){c(mean(x), sd(x)/sqrt(length(x)))})
+aggregate(data$prefer_subj_1st, list(data$conditions, data$dist), FUN = function(x){c(mean(x), sd(x)/sqrt(length(x)))})
 
 # #TODO: adjust later
 # #data_filler <- subset(data, conditions %in% c("filler_false", "filler_true"))
