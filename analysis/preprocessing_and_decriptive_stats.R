@@ -29,6 +29,9 @@ xtabs(~id+leftright_trial, data=data)#TODO: check
 xtabs(~id+list, data=data)
 round(xtabs(~list, data=data)/180)
 
+#check missing slider values
+xtabs(~id, data=data[is.na(data$list),])
+xtabs(~id+conditions, data=data[is.na(data$list),])
 
 xtabs(~conditions, data=data[data$item==1,])
 
