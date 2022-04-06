@@ -4,6 +4,7 @@ library(gridExtra)
 library(trimr)
 library(stringr)
 library(lme4)
+library(lmerTest)
 
 rm(list=ls())
 
@@ -12,26 +13,32 @@ if(!dir.exists(plots_dir)) dir.create(plots_dir, recursive = TRUE, showWarnings 
 
 data <- read.csv(file = "../data/huashan.csv")
 subj_info <-read.csv(file = "../data/huashan_subj_info.csv")
-
+setwd("~/GitHub/huashan/analysis")
 
 #do stuff with subj_info here:
 #...
 
-
-#subj_exp_condition<-subj_info[c("id","left.right")]
-
-#head(data, n=5)
+#show how many pps
+sum(xtabs(~id,data=data)/180)
 
 
-xtabs(~id, data=data)
-xtabs(~id+conditions, data=data)#TODO: check
-xtabs(~id+leftright_trial, data=data)#TODO: check
+#show conditions
+xtabs(~id+conditions, data=data)
+
+# show distribution for randomized left and right per trials
+xtabs(~id+leftright_trial, data=data) #TODO: check the following extrem values: 6,5,4,3,2,1, why?
+sum_left <- sum(xtabs(~leftright_trial=="1left", data=data)[2])
+sum_right <- sum(xtabs(~leftright_trial=="1right", data=data)[2])
+z <- c(sum_left,sum_right)
+labels <- c("left","right")
+piepercent<- round(100*z/sum(z), 1)
+pie(z, labels=piepercent, main="Distribution of left and right", col = rainbow(length(z)))
+legend("topright", c("left","right"), cex = 0.8, fill = rainbow(length(z)))
+
+# show lists
 xtabs(~id+list, data=data)
 round(xtabs(~list, data=data)/180)
 
-#check missing slider values
-xtabs(~id, data=data[is.na(data$list),])
-xtabs(~id+conditions, data=data[is.na(data$list),])
 
 xtabs(~conditions, data=data[data$item==1,])
 
@@ -115,11 +122,13 @@ p
 dev.off()
 # 
 # 
-# data$relevant_prop <- ifelse(str_detect(data$conditions,"farbe"), "color", "size")
+# data$relevant_prop <- ifelse(str_detect(data$conditions,""), "color", "size")
 # 
 # 
-# m0 <- lmer(prefer_subj_1st~relevant_prop*sharpness+(1|id), data=data)
-# summary(m0)
+m0 <- lmer(prefer_first_1st~conditions+(1|id), data=data)
+summary(m0)
+m1 <- lmer(prefer_first_1st~dist+(1|id), data=data)
+summary(m1)
 # 
 # m1 <- update(m0, .~.-relevant_prop:sharpness)
 #  
