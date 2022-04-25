@@ -188,9 +188,46 @@ anova(m0,m2)
 plot(allEffects(m0))
 plot(allEffects(m1))
 
-m3 <- lmer(prefer_first_1st~combination*dist*relevant_property+(1|item), data=data)
+m3 <- lmer(prefer_first_1st~combination*dist*relevant_property+(1|item), data=data)#REML=FALSE
 summary(m3)
 plot(allEffects(m3))
+
+#FS add more random effects
+m4 <- update(m3, .~.+(1|id))
+anova(m3,m4)#m<x.y>, where x indicates fixed and y random effects
+#SF
+
+
+#FS 
+m5 <- update(m3, .~.-combination:dist:relevant_property)
+anova(m3,m5)
+summary(m5)
+#SF
+
+
+#FS 
+m6 <- update(m5, .~.-combination:dist)
+anova(m6,m5)
+summary(m6)
+#SF
+
+#FS 
+m7 <- update(m6, .~.-combination:relevant_property)
+anova(m6,m7)
+summary(m7)
+#SF
+
+#FS #specify ref: relevel(data$factor, ref="abc")
+
+#SF
+
+
+#FS 
+#my <- update(mx, .~.-relevant_property)
+#anova(mx,my)
+#SF
+
+
 # 
 # m1 <- update(m0, .~.-relevant_prop:sharpness)
 #  
