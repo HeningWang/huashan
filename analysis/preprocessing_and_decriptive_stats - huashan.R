@@ -8,7 +8,8 @@ library(lmerTest)
 library(dplyr)
 library(effects)
 library(optimx)
-
+library(lattice)
+library(MASS)
 rm(list=ls())
 
 plots_dir<- file.path(getwd(),"plots")
@@ -106,7 +107,7 @@ exclude <- append(exclude,c("6241fc4a4e8ee","6242bd7514401","6242197550443",
 # exclude more than 5 none fits in experimental items
 xtabs(~data$slider_value==-1, data = data)
 xtabs(~none_fits + id, data = data)
-exclude <- append(exclude,
+# exclude <- append(exclude,
                   c("624da2cd1ef0b","624d94a33c1bb","624d6af77ae58","624da2cd1ef0b","624b303d6bbb7",
                     "6242d2a1afd92","6242d016c0e11","6242d0cc141b3","6242cc346032c","6242c9a5256b1",
                     "6242c6ebdcebd","6242197550443","6242140018a74","6241eec9bf12f","62408e90eaa0f",
@@ -135,7 +136,7 @@ data <- droplevels(subset(data, str_sub(data$conditions, 1, 1) != "f"))
 
 #TODO: adjust later, rename variable
 data$prefer_first_1st <- ifelse(data$leftright_trial=="1left", 100-data$slider_value, data$slider_value)
-
+data$prefer_first_1st <- data$prefer_first_1st - 50
 #aggregate data
 aggregate(data$prefer_first_1st, list(data$conditions), FUN = function(x){c(mean(x), sd(x)/sqrt(length(x)))})
 aggregate(data$prefer_first_1st, list(data$conditions, data$dist), FUN = function(x){c(mean(x), sd(x)/sqrt(length(x)))})
@@ -152,7 +153,6 @@ data$relevant_property <- as.factor(ifelse(str_sub(data$conditions, 1, 1)== "e",
                                            ifelse(str_sub(data$conditions, 1, 1)== "z", "second",
                                            "both")))
                                            
-
 
 ratings_aggregated<-aggregate(prefer_first_1st~combination+relevant_property+dist, data=data, mean)
 #TODO: find another way to compute ses (SEwithin?)
@@ -176,10 +176,21 @@ dev.off()
 # 
 # 
 # data$relevant_prop <- ifelse(str_detect(data$conditions,""), "color", "size")
-# 
-# 
-m0 <- lmer(prefer_first_1st~conditions*dist+(1|id)+(1|item), data=data)
+
+# set up contrast coding
+mean(data$prefer_first_1st)
+contrasts(data$combination)
+contrasts(data$relevant_property)
+data$dist <- factor(data$dist, levels = c("sharp","blurred"))
+contrasts(data$dist) <- c(-0.5, 0.5)
+colnames(contrasts(data$dist)) <- c("blurred")
+
+#maximaze the random effect structure
+m0 <- lmer(prefer_first_1st~relevant_property*combination*dist
+           +(1|id)
+           +(1+dist|item), data=data)
 summary(m0)
+anova(m0)
 m1 <- update(m0, .~.-(1|item)) 
 summary(m1)
 anova(m1,m0)
