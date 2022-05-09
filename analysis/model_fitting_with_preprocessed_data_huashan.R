@@ -44,3 +44,23 @@ anova(nonefit_mh1,nonefit_m2)
 missing_dist <- which(is.na(data_preprocessed_for_analysis_of_none_fit_huashan$dist)==TRUE)
 data_preprocessed_for_analysis_of_none_fit_huashan[missing_dist,]
 #plot(allEffects(nonefit_m1))
+
+#FS#play around with transformations
+dat <- data_preprocessed_for_analysis_of_none_fit_huashan
+hist(dat$slider_value)
+qqnorm(dat$slider_value)
+dat$sli<-(dat$slider_value+0.5)/101
+dat$transli<-qlogis(jitter(dat$sli))
+hist(dat$transli)
+qqnorm(dat$transli)
+m0 <- lmer(dat$sli ~ conditions*dist+ (1|id) + (1|item), data = dat) 
+m0_log <- lmer(log(dat$sli) ~ conditions*dist+ (1|id) + (1|item), data = dat) 
+m0_trans <- lmer(dat$transli ~ conditions*dist+ (1|id) + (1|item), data = dat) 
+par(mfrow=c(1,3))
+qqnorm(residuals(m0))
+qqnorm(residuals(m0_trans))
+qqnorm(residuals(m0_log))
+par(mfrow=c(1,1))
+plot(m0_log)
+summary(m0)
+#SF
