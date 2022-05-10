@@ -16,9 +16,8 @@ library(optimx)
 mean(data$prefer_first_1st)
 contrasts(data$combination)
 contrasts(data$relevant_property)
-data$dist <- factor(data$dist, levels = c("sharp","blurred"))
 contrasts(data$dist) <- c(-0.5, 0.5)
-colnames(contrasts(data$dist)) <- c("blurred")
+colnames(contrasts(data$dist)) <- c("sharp")
 
 #maximaze the random effect structure
 m0 <- lmer(prefer_first_1st~relevant_property*combination*dist
@@ -26,6 +25,28 @@ m0 <- lmer(prefer_first_1st~relevant_property*combination*dist
            +(1|item), data=data)
 summary(m0)
 anova(m0)
+
+# log transformation 
+data$sli<-(data$prefer_first_1st+50.5)/101
+m0.1 <- lmer(log(sli)~relevant_property*combination*dist
+           +(1|id)
+           +(1|item), data=data)
+summary(m0)
+
+data$transli<-qlogis(jitter(data$sli))
+
+m0.2 <- lmer(transli~relevant_property*combination*dist
+             +(1|id)
+             +(1|item), data=data)
+
+step(m0.1)
+
+par(mfrow=c(1,3))
+qqnorm(residuals(m0))
+qqnorm(residuals(m0.1))
+qqnorm(residuals(m0.2))
+
+step(m0.2)
 
 m1 <-  update(m0, .~.-combination:dist:relevant_property)
 anova(m1,m0)
