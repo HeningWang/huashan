@@ -162,6 +162,7 @@ names(ratings_aggregated)[5]<-"se"
 # make bar plot for descriptive analysis
 p <- ggplot(ratings_aggregated, aes(x=combination, y=prefer_first_1st, fill=relevant_property)) +
   ylab("preference for first adjective in position I")+
+  ggtitle("Mittelwerte der Akzeptabilitätswerte für Präferenzen der ersten Adjektiven aus Kombinationen \n an der Position I in der scharfen oder unscharfen Größenverteilung")+
   geom_bar(stat="identity", position=position_dodge()) +
   geom_errorbar(aes(ymin=prefer_first_1st-se, ymax=prefer_first_1st+se), width=.2,
                 position=position_dodge(.9))+

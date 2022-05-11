@@ -47,9 +47,9 @@ qqnorm(residuals(m0.2), main = "value logit transformed")
 summary(m0.2)
 anova(m0.2)
 step(m0.2)
-difflsmeans(m0.2, test.effs = "Group", ddf="Kenward-Roger")
 
-#subset data for analysis of interaction 
+
+#subset data for post hoc analysis of interaction 
 
 data_cf <- subset(data, combination == "color_form")
 data_d <- subset(data, combination == "dimension_form" | combination == "dimension_color")
@@ -84,18 +84,88 @@ data_dc$combination <- as.factor(droplevels(data_dc$combination))
 m_dc <- lmer(transli~relevant_property*dist
             +(1|id)
             +(1|item), data=data_dc)
-
 summary(m_dc)
 anova(m_dc)
 
-# analyse df
+data_dcfirst <- subset(data_dc, relevant_property == "first")
+data_dcfirst$relevant_property <- as.factor(droplevels(data_dcfirst$relevant_property))
+m_dcfirst <- lmer(transli~dist
+             +(1|id)
+             +(1|item), data=data_dcfirst)
+
+summary(m_dcfirst)
+anova(m_dcfirst)
+
+data_dcsecond <- subset(data_dc, relevant_property == "second")
+data_dcsecond$relevant_property <- as.factor(droplevels(data_dcsecond$relevant_property))
+m_dcsecond <- lmer(transli~dist
+                  +(1|id)
+                  +(1|item), data=data_dcsecond)
+
+summary(m_dcsecond)
+anova(m_dcsecond)
+
+
+# analyse df post hoc
 data_df$combination <- as.factor(droplevels(data_df$combination))
 m_df <- lmer(transli~relevant_property*dist
             +(1|id)
             +(1|item), data=data_df)
 
-summary(m_d)
-anova(m_d)
+summary(m_df)
+anova(m_df)
+
+data_dffirst <- subset(data_df, relevant_property == "first")
+data_dffirst$relevant_property <- as.factor(droplevels(data_dffirst$relevant_property))
+m_dffirst <- lmer(transli~dist
+                  +(1|id)
+                  +(1|item), data=data_dffirst)
+
+summary(m_dffirst)
+anova(m_dffirst)
+
+data_dfsecond <- subset(data_df, relevant_property == "second")
+data_dfsecond$relevant_property <- as.factor(droplevels(data_dfsecond$relevant_property))
+m_dfsecond <- lmer(transli~dist
+                   +(1|id)
+                   +(1|item), data=data_dfsecond)
+
+summary(m_dfsecond)
+anova(m_dfsecond)
+
+data_dfsharp <- subset(data_df, dist == "sharp")
+data_dfsharp$dist <- as.factor(droplevels(data_dfsharp$sharp))
+m_dfsharp <- lmer(transli~relevant_property
+                   +(1|id)
+                   +(1|item), data=data_dfsharp)
+
+summary(m_dfsharp)
+anova(m_dfsharp)
+
+data_dfblurred <- subset(data_df, dist == "sharp")
+data_dfsharp$dist <- as.factor(droplevels(data_dfsharp$sharp))
+m_dfsharp <- lmer(transli~relevant_property
+                  +(1|id)
+                  +(1|item), data=data_dfsharp)
+
+summary(m_dfsharp)
+anova(m_dfsharp)
+
+
+
+data_dfboth <- subset(data_df, relevant_property == "both")
+data_dfboth$relevant_property <- as.factor(droplevels(data_dfboth$relevant_property))
+m_dfboth <- lmer(transli~dist
+                  +(1|id)
+                  +(1|item), data=data_dfboth)
+
+summary(m_dfboth)
+anova(m_dfboth)
+
+
+
+
+
 
 
 m1 <-  update(m0, .~.-combination:dist:relevant_property)
