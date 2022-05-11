@@ -1,4 +1,5 @@
 rm(list = ls())
+setwd("~/GitHub/huashan/analysis")
 load ("data_preprocessed_huashan.RData")
 library(tidyr)
 library(ggplot2)
@@ -10,8 +11,8 @@ library(lmerTest)
 library(dplyr)
 library(effects)
 library(optimx)
-
-
+library(emmeans)
+library(pbkrtest)
 # set up contrast coding
 mean(data$prefer_first_1st)
 contrasts(data$combination)
@@ -20,33 +21,82 @@ contrasts(data$dist) <- c(-0.5, 0.5)
 colnames(contrasts(data$dist)) <- c("sharp")
 
 #maximaze the random effect structure
-m0 <- lmer(prefer_first_1st~relevant_property*combination*dist
-           +(1|id)
-           +(1|item), data=data)
-summary(m0)
-anova(m0)
+
+
+
+
 
 # log transformation 
 data$sli<-(data$prefer_first_1st+50.5)/101
+m0 <- lmer(data$sli~relevant_property*combination*dist
+           +(1|id)
+           +(1|item), data=data)
 m0.1 <- lmer(log(sli)~relevant_property*combination*dist
            +(1|id)
            +(1|item), data=data)
-summary(m0)
-
 data$transli<-qlogis(jitter(data$sli))
-
 m0.2 <- lmer(transli~relevant_property*combination*dist
              +(1|id)
              +(1|item), data=data)
-
-step(m0.1)
-
 par(mfrow=c(1,3))
-qqnorm(residuals(m0))
-qqnorm(residuals(m0.1))
-qqnorm(residuals(m0.2))
+qqnorm(residuals(m0), main = "default value")
+qqnorm(residuals(m0.1), main = "value log transformed")
+qqnorm(residuals(m0.2), main = "value logit transformed")
 
+# use m0.2 for inference statistic
+summary(m0.2)
+anova(m0.2)
 step(m0.2)
+difflsmeans(m0.2, test.effs = "Group", ddf="Kenward-Roger")
+
+#subset data for analysis of interaction 
+
+data_cf <- subset(data, combination == "color_form")
+data_d <- subset(data, combination == "dimension_form" | combination == "dimension_color")
+data_df <- subset(data_d, combination == "dimension_form")
+data_dc <- subset(data_d, combination == "dimension_color")
+
+# analyse cf
+data_cf$combination <- as.factor(droplevels(data_cf$combination))
+m_cf <- lmer(transli~relevant_property*dist
+                   +(1|id)
+                   +(1|item), data=data_cf)
+subset()
+
+summary(m_cf)
+anova(m_cf)
+plot(allEffects(m_cf))
+interaction.plot(x.factor = data_cf$relevanty_property, 
+                 trace.factor = data_cf$dist, 
+                 response = data_cf$prefer_first_1st)
+
+# analyse d
+data_d$combination <- as.factor(droplevels(data_d$combination))
+m_d <- lmer(transli~combination*relevant_property*dist
+             +(1|id)
+             +(1|item), data=data_d)
+
+summary(m_d)
+anova(m_d)
+
+# analyse dc
+data_dc$combination <- as.factor(droplevels(data_dc$combination))
+m_dc <- lmer(transli~relevant_property*dist
+            +(1|id)
+            +(1|item), data=data_dc)
+
+summary(m_dc)
+anova(m_dc)
+
+# analyse df
+data_df$combination <- as.factor(droplevels(data_df$combination))
+m_df <- lmer(transli~relevant_property*dist
+            +(1|id)
+            +(1|item), data=data_df)
+
+summary(m_d)
+anova(m_d)
+
 
 m1 <-  update(m0, .~.-combination:dist:relevant_property)
 anova(m1,m0)
